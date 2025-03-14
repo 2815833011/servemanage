@@ -1,0 +1,20 @@
+chromedriver:
+    chrome: driver\chromedriver.exe
+testdata: ./data
+
+mail:
+    sender:
+        host: smtp.qq.com
+        user: 2815833011@qq.com
+        password: qyrultzvywigdcid
+    to: 
+      2815833011@qq.com: niubi 
+    cc:
+        - 2815833011@qq.com
+    active: False
+
+conftest: 
+    screenshot: 
+        passed: False
+        failed: True
+    
