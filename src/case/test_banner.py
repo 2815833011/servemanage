@@ -5,10 +5,8 @@ from selenium.webdriver.common.by import By
 from src.utils.pyselenium import PySelenium
 
 class TestBanner:
-    def setup_method(self,):
-        '''
-        前置条件
-        '''
+    def setup_class(self):
+        ''''登录一次'''
         self.driver=PySelenium()
         self.driver.get("http://www.liuyanzu.tech/task/manage/#/login")
         username=(By.XPATH,'//input[@class="el-input__inner" and @type="text"]')
@@ -20,16 +18,14 @@ class TestBanner:
         self.driver.type(password,"123456")
         self.driver.click(button)
         assert self.driver.asster(loginres)
-    
-    def teardown_method(self):
-        exit_lis=(By.XPATH,"//*[@class='el-icon-caret-bottom']")
-        exit=(By.XPATH,"//*[text()='退出登录']")
-        self.driver.click(exit_lis)
-        self.driver.force_wait(1)
-        self.driver.click(exit)
-        self.driver.delete_all_cookies()
-        self.driver.quit()
-        
+
+    def setup_method(self):
+        '''
+        前置条件
+        '''
+        self.driver.get("http://www.liuyanzu.tech/task/manage/#/login")
+            
+    @pytest.mark.skip(reason="1")   
     def test_add_banner(self):
         '''
         新增轮播图
@@ -54,7 +50,8 @@ class TestBanner:
         self.driver.force_wait(1)
         assert self.driver.text(ass)=="测试"
         time.sleep(5)
-        
+    
+    @pytest.mark.skip(reason="2")
     def test_add_pyautogui_banner(self):
         '''
         另一种上传文件的方式
@@ -72,16 +69,28 @@ class TestBanner:
         self.driver.click(annner_new)
         self.driver.type(tittle,"测试")
         self.driver.force_wait(1)
-        pyautogui.write(r"C:\\Users\\EDY\Desktop\Snipaste_2025-02-17_14-18-48.png")
-        self.driver.force_wait(1)
-        pyautogui.press("enter")
-        self.driver.force_wait(1)
-        pyautogui.press("enter")
-        self.driver.force_wait(1)
         self.driver.click(upload)
+        self.driver.force_wait(1)
+        pyautogui.write(r"C:\Users\EDY\Desktop\Snipaste_2025-02-17_14-18-48.png")
+        self.driver.force_wait(1)
+        pyautogui.press("enter")
+        self.driver.force_wait(1)
+        pyautogui.press("enter")
         self.driver.force_wait(1)
         self.driver.type(link,"https://www.baidu.com")
         self.driver.click(submit)
         self.driver.force_wait(1)
         assert self.driver.text(ass)=="测试"
         time.sleep(5)
+
+
+    def test_update_banner(self):
+        annner_link=(By.XPATH,"//*[text()='轮播图管理']")
+        self.driver.click(annner_link)
+        tr=(By.XPATH,'//*[text()="测试"]')
+        upddate=(By.XPATH,"./following-sibling::td/button[1]")
+        self.driver.find_fa_element(tr,upddate)
+
+    def teardown_class(self):
+        self.driver.delete_all_cookies()
+        self.driver.quit()
