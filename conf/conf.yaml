@@ -1,5 +1,5 @@
 chromedriver:
-    chrome: driver\chromedriver.exe
+    chrome: /Users/admin/Documents/pythonproject/servemanage/driver/chromedriver
 testdata: ./data
 
 mail:

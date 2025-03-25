@@ -1,6 +1,6 @@
 import yaml
 class Yamloader:
-    def loder(self,filpath=r"data\test_login_param.yaml"):
+    def loder(self,filpath=r"data/test_login_param.yaml"):
         '''
             加载yaml文件
         '''
@@ -10,5 +10,5 @@ class Yamloader:
            
 
 if __name__=="__main__":   
-   resutl= Yamloader().loder(filpath=r"data\test_login_param.yaml")   
+   resutl= Yamloader().loder(filpath=r"data/test_login_param.yaml")   
    print(resutl["test_login"][0])

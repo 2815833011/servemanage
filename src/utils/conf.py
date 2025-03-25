@@ -3,7 +3,7 @@ from src.utils.yamloder import Yamloader
 
 class Conf:
     def __init__(self):
-        self.yaml=Yamloader().loder(filpath=r"conf\\conf.yaml")
+        self.yaml=Yamloader().loder(filpath="/Users/admin/Documents/pythonproject/servemanage/conf/conf.yaml")
         
 
     def get_driver_path(self,browser="chrome"):

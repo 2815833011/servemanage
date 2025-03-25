@@ -10,7 +10,7 @@ class PySelenium:
     __instance =None
     __driver=None
     __timeout=None
-    def __new__(cls,brower="chrome",driverpath=r"driver\chromedriver.exe",timeout=30):
+    def __new__(cls,brower="chrome",driverpath="driver/chromedriver.exe",timeout=30):
         '''
         单例化driver
         '''
@@ -103,27 +103,7 @@ class PySelenium:
             raise Exception('输入的格式必须时（by,value）')
         
         return WebDriverWait(self.__driver,self.__timeout).until(lambda a: a.find_elements(*locator))
-    
-    @log
-    def find_fa_elements(self,flocator,locator):
-        '''
-        通过父元素动态查找子元素，默认超时时间30秒 显式等待
-        '''
-        if not isinstance(locator,tuple):
-            raise Exception('输入的格式必须时（by,value）')
-        
-        return WebDriverWait(self.find_elements(flocator),self.__timeout).until(lambda a: a.find_elements(*locator))
-    
-    @log
-    def find_fa_element(self,flocator,locator):
-        '''
-        通过父元素动态查找子元素，默认超时时间30秒 显式等待
-        '''
-        if not isinstance(locator,tuple):
-            raise Exception('输入的格式必须时（by,value）')
-        
-        return WebDriverWait(self.find_element(flocator),self.__timeout).until(lambda a: a.find_element(*locator))
-    
+  
 
     @log
     def click(self,locator):
@@ -279,6 +259,12 @@ class PySelenium:
         '''
         e=self.find_element(locator)
         self.__driver.execute_script("arguments[0].scrollIntoView()",e)
-        
+    
+    @log
+    def type_clear(self,locator):
+        '''
+        清空输入框
+        '''
+        self.find_element(locator).clear()
         
     
