@@ -1,7 +1,7 @@
 # _*_ coding: utf-8 _*_
 import pytest
 import time
-import pyautogui
+# import pyautogui 无法在服务器环境使用这个包
 from random import randint
 from selenium.webdriver.common.by import By
 from src.utils.pyselenium import PySelenium
@@ -79,11 +79,11 @@ class TestBanner:
         self.driver.force_wait(1)
         self.driver.click(upload)
         self.driver.force_wait(1)
-        pyautogui.write(r"C:/Users/EDY/Desktop/Snipaste_2025-02-17_14-18-48.png")
+        # pyautogui.write(r"C:/Users/EDY/Desktop/Snipaste_2025-02-17_14-18-48.png")
         self.driver.force_wait(1)
-        pyautogui.press("enter")
+        # pyautogui.press("enter")
         self.driver.force_wait(1)
-        pyautogui.press("enter")
+        # pyautogui.press("enter")
         self.driver.force_wait(1)
         self.driver.type(link,"https://www.baidu.com")
         self.driver.click(submit)
