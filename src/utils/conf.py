@@ -1,10 +1,12 @@
 # _*_ coding: utf-8 _*_
 from src.utils.yamloder import Yamloader
 import platform
-
+import os
 class Conf:
     def __init__(self):
-        self.yaml=Yamloader().loder(filpath="/Users/admin/Documents/pythonproject/servemanage/conf/conf.yaml")
+        
+        path=os.path.abspath("conf")
+        self.yaml=Yamloader().loder(filpath=os.path.join(path,"conf.yaml"))
         
 
     def get_driver_path(self,browser="chrome"):
@@ -57,4 +59,5 @@ class Conf:
 
 if __name__ == "__main__":
     con=Conf()
-    print(con.get_driver_path(),platform.system())
+    
+    print()
