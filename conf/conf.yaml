@@ -1,5 +1,8 @@
 chromedriver:
-    chrome: /Users/admin/Documents/pythonproject/servemanage/driver/chromedriver
+    linux: 
+        chrome: /Users/admin/Documents/pythonproject/servemanage/driver/linux/chromedriver
+    mac: 
+        chrome: /Users/admin/Documents/pythonproject/servemanage/driver/mac/chromedriver
 testdata: ./data
 
 mail:

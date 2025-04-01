@@ -1,5 +1,6 @@
-
+# _*_ coding: utf-8 _*_
 from src.utils.yamloder import Yamloader
+import platform
 
 class Conf:
     def __init__(self):
@@ -10,7 +11,7 @@ class Conf:
         '''
         获取浏览器驱动地址
         '''
-        return self.yaml["chromedriver"][browser]
+        return self.yaml["chromedriver"][platform.system().lower()][browser]
     
     def get_test_data(self,method):
         '''

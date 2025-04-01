@@ -1,3 +1,4 @@
+# _*_ coding: utf-8 _*_
 import yaml
 class Yamloader:
     def loder(self,filpath=r"data/test_login_param.yaml"):

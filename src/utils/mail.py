@@ -1,3 +1,4 @@
+# _*_ coding: utf-8 _*_
 import yagmail
 import traceback
 from src.utils.conf import Conf

@@ -1,3 +1,4 @@
+# _*_ coding: utf-8 _*_
 class Report:
     def get_result(self,terminalreporter):
         '''
