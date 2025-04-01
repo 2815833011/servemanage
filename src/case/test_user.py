@@ -100,12 +100,15 @@ class TestUser:
         self.driver.force_wait(1)
         self.driver.exeute_js('document.querySelector(".el-upload__input").style.display="block"')
         self.driver.force_wait(1)
-        self.driver.type(form_fileinput,'/Users/admin/Documents/pythonproject/servemanage/data/Snipaste_2025-03-18_19-36-22.png')
+        hh=os.path.abspath("data")
+        path=os.path.join(hh,"Snipaste_2025-03-18_19-36-22.png")
+        self.driver.type(form_fileinput,path)
         self.driver.force_wait(1)
         self.driver.click(form_surebut)
         self.driver.force_wait(1)
         assert self.driver.find_element(assdataname)
         self.driver.force_wait(1)
+        
     @pytest.mark.parametrize("data",["正常","已冻结","禁止发布任务"])
     def test_status_user(self,data):
         '''

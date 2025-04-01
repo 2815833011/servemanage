@@ -11,7 +11,7 @@ class Conf:
         '''
         获取浏览器驱动地址
         '''
-        return self.yaml["chromedriver"][platform.system().lower()][browser]
+        return self.yaml["selenium"]["chromedriver"][platform.system()][browser]
     
     def get_test_data(self,method):
         '''
@@ -48,7 +48,13 @@ class Conf:
         是否发邮件
         '''
         return self.yaml["conftest"]["screenshot"]
+    
+    def get_opention(self):
+        '''
+        浏览器头参数
+        '''
+        return self.yaml["selenium"]["opentions"]["add_argument"]
 
 if __name__ == "__main__":
     con=Conf()
-    print(con.get_test_data())
+    print(con.get_driver_path(),platform.system())

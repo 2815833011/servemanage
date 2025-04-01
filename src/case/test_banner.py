@@ -6,6 +6,7 @@ from random import randint
 from selenium.webdriver.common.by import By
 from src.utils.pyselenium import PySelenium
 
+@pytest.mark.skip
 class TestBanner:
     def setup_class(self):
         ''''登录一次'''

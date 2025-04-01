@@ -1,8 +1,15 @@
-chromedriver:
-    linux: 
-        chrome: /Users/admin/Documents/pythonproject/servemanage/driver/linux/chromedriver
-    mac: 
-        chrome: /Users/admin/Documents/pythonproject/servemanage/driver/mac/chromedriver
+selenium:
+    chromedriver:
+        Linux: 
+            chrome: /Users/admin/Documents/pythonproject/servemanage/driver/linux/chromedriver
+        Darwin: 
+            chrome: /Users/admin/Documents/pythonproject/servemanage/driver/mac/chromedriver
+    opentions: 
+        add_argument:
+            - "--log-level=3"
+            - --startmaximized"
+            
+        
 testdata: ./data
 
 mail:
@@ -20,4 +27,5 @@ conftest:
     screenshot: 
         passed: False
         failed: True
+
     

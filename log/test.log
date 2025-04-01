@@ -16449,3 +16449,1086 @@ Stacktrace:
 20  libsystem_pthread.dylib             0x00007ff80866aae3 thread_start + 15
 
 
+2025-04-01 18:51:42.819 | INFO     | src.utils.logger:info:49 - 执行函数：get执行参数：('http://www.liuyanzu.tech/task/manage/#/login',)
+2025-04-01 18:51:42.821 | INFO     | src.utils.logger:info:49 - 执行出错Traceback (most recent call last):
+  File "/Users/admin/Documents/pythonproject/servemanage/src/utils/logger.py", line 89, in log_action
+    retval=func(*args,**kwargs)
+  File "/Users/admin/Documents/pythonproject/servemanage/src/utils/pyselenium.py", line 85, in get
+    self.__driver.get(url)
+    ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+
+2025-04-01 18:57:32.565 | INFO     | src.utils.logger:info:49 - 执行函数：get执行参数：('http://www.liuyanzu.tech/task/manage/#/login',)
+2025-04-01 18:57:35.933 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 18:57:35.935 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('xpath', '//input[@class="el-input__inner" and @type="text"]'), 'admin')
+2025-04-01 18:57:35.935 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//input[@class="el-input__inner" and @type="text"]')}
+2025-04-01 18:57:35.999 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="55eef43029257e36f8a860c5bd526671", element="f.40270F8AE5D1B10D23AC421BEAB13123.d.A5135111DD453DA49C336A6A1B554376.e.3")>
+2025-04-01 18:57:36.161 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 18:57:36.161 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('xpath', '//input[@class="el-input__inner" and @type="password"]'), '123456')
+2025-04-01 18:57:36.161 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//input[@class="el-input__inner" and @type="password"]')}
+2025-04-01 18:57:36.172 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="55eef43029257e36f8a860c5bd526671", element="f.40270F8AE5D1B10D23AC421BEAB13123.d.A5135111DD453DA49C336A6A1B554376.e.4")>
+2025-04-01 18:57:36.207 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 18:57:36.208 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', "//*[text()='登录']"),)
+2025-04-01 18:57:36.208 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='登录']")}
+2025-04-01 18:57:36.218 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="55eef43029257e36f8a860c5bd526671", element="f.40270F8AE5D1B10D23AC421BEAB13123.d.A5135111DD453DA49C336A6A1B554376.e.12")>
+2025-04-01 18:57:36.260 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 18:57:36.260 | INFO     | src.utils.logger:info:49 - 执行函数：asster执行参数：(('xpath', "//*[text()='登录成功']"),)
+2025-04-01 18:57:36.260 | INFO     | src.utils.logger:info:49 - 执行函数：find_elements执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='登录成功']")}
+2025-04-01 18:57:36.782 | INFO     | src.utils.logger:info:49 - 执行结果为：[<selenium.webdriver.remote.webelement.WebElement (session="55eef43029257e36f8a860c5bd526671", element="f.40270F8AE5D1B10D23AC421BEAB13123.d.A5135111DD453DA49C336A6A1B554376.e.20")>]
+2025-04-01 18:57:36.782 | INFO     | src.utils.logger:info:49 - 执行结果为：[<selenium.webdriver.remote.webelement.WebElement (session="55eef43029257e36f8a860c5bd526671", element="f.40270F8AE5D1B10D23AC421BEAB13123.d.A5135111DD453DA49C336A6A1B554376.e.20")>]
+2025-04-01 18:57:36.783 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', "//*[@class='el-icon-lx-hot']"),)
+2025-04-01 18:57:36.784 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[@class='el-icon-lx-hot']")}
+2025-04-01 18:57:36.793 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="55eef43029257e36f8a860c5bd526671", element="f.40270F8AE5D1B10D23AC421BEAB13123.d.A5135111DD453DA49C336A6A1B554376.e.21")>
+2025-04-01 18:57:36.834 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 18:57:36.834 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(3,)
+2025-04-01 18:57:39.837 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 18:57:39.838 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', '//*[text()="奥特曼测试707600"]/../following-sibling::td[4]/div/button[2]'),)
+2025-04-01 18:57:39.838 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//*[text()="奥特曼测试707600"]/../following-sibling::td[4]/div/button[2]')}
+2025-04-01 18:57:39.854 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="55eef43029257e36f8a860c5bd526671", element="f.40270F8AE5D1B10D23AC421BEAB13123.d.A5135111DD453DA49C336A6A1B554376.e.30")>
+2025-04-01 18:57:39.896 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 18:57:39.896 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 18:57:40.897 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 18:57:40.898 | INFO     | src.utils.logger:info:49 - 执行函数：text执行参数：(('xpath', '//*[text()="奥特曼测试707600"]/../following-sibling::td[3]/div/span'),)
+2025-04-01 18:57:40.898 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//*[text()="奥特曼测试707600"]/../following-sibling::td[3]/div/span')}
+2025-04-01 18:57:40.916 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="55eef43029257e36f8a860c5bd526671", element="f.40270F8AE5D1B10D23AC421BEAB13123.d.A5135111DD453DA49C336A6A1B554376.e.31")>
+2025-04-01 18:57:40.930 | INFO     | src.utils.logger:info:49 - 执行结果为：停用
+2025-04-01 18:57:40.932 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', "//*[@class='el-icon-lx-hot']"),)
+2025-04-01 18:57:40.932 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[@class='el-icon-lx-hot']")}
+2025-04-01 18:57:40.939 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="55eef43029257e36f8a860c5bd526671", element="f.40270F8AE5D1B10D23AC421BEAB13123.d.A5135111DD453DA49C336A6A1B554376.e.21")>
+2025-04-01 18:57:40.983 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 18:57:40.983 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(3,)
+2025-04-01 18:57:43.988 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 18:57:43.989 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', '//*[text()="奥特曼测试707600"]/../following-sibling::td[4]/div/button[2]'),)
+2025-04-01 18:57:43.989 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//*[text()="奥特曼测试707600"]/../following-sibling::td[4]/div/button[2]')}
+2025-04-01 18:57:43.998 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="55eef43029257e36f8a860c5bd526671", element="f.40270F8AE5D1B10D23AC421BEAB13123.d.A5135111DD453DA49C336A6A1B554376.e.30")>
+2025-04-01 18:57:44.040 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 18:57:44.040 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 18:57:45.044 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 18:57:45.045 | INFO     | src.utils.logger:info:49 - 执行函数：text执行参数：(('xpath', '//*[text()="奥特曼测试707600"]/../following-sibling::td[3]/div/span'),)
+2025-04-01 18:57:45.045 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//*[text()="奥特曼测试707600"]/../following-sibling::td[3]/div/span')}
+2025-04-01 18:57:45.056 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="55eef43029257e36f8a860c5bd526671", element="f.40270F8AE5D1B10D23AC421BEAB13123.d.A5135111DD453DA49C336A6A1B554376.e.31")>
+2025-04-01 18:57:45.063 | INFO     | src.utils.logger:info:49 - 执行结果为：启用
+2025-04-01 18:57:45.068 | INFO     | src.utils.logger:info:49 - 执行函数：delete_all_cookies执行参数：()
+2025-04-01 18:57:45.075 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 18:57:45.075 | INFO     | src.utils.logger:info:49 - 执行函数：quit执行参数：()
+2025-04-01 18:57:45.189 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 18:57:45.191 | INFO     | src.utils.logger:info:49 - 执行函数：get执行参数：('http://www.liuyanzu.tech/task/manage/#/login',)
+2025-04-01 18:57:45.211 | INFO     | src.utils.logger:info:49 - 执行出错Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+ConnectionRefusedError: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+    ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<6 lines>...
+        enforce_content_length=enforce_content_length,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+    ~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1333, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1093, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1037, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+                ~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+        self, f"Failed to establish a new connection: {e}"
+    ) from e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x1177e68b0>: Failed to establish a new connection: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/admin/Documents/pythonproject/servemanage/src/utils/logger.py", line 89, in log_action
+    retval=func(*args,**kwargs)
+  File "/Users/admin/Documents/pythonproject/servemanage/src/utils/pyselenium.py", line 85, in get
+    self.__driver.get(url)
+    ~~~~~~~~~~~~~~~~~^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 454, in get
+    self.execute(Command.GET, {"url": url})
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 427, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 404, in execute
+    return self._request(command_info[0], url, body=data)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 428, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ~~~~~~~~~~~~~~~~~~~~~~~~^
+        method, url, fields=fields, headers=headers, **urlopen_kw
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=54306): Max retries exceeded with url: /session/55eef43029257e36f8a860c5bd526671/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1177e68b0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+
+2025-04-01 18:59:25.712 | INFO     | src.utils.logger:info:49 - 执行函数：get执行参数：('http://www.liuyanzu.tech/task/manage/#/login',)
+2025-04-01 18:59:25.937 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 18:59:25.938 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('xpath', '//input[@class="el-input__inner" and @type="text"]'), 'admin')
+2025-04-01 18:59:25.938 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//input[@class="el-input__inner" and @type="text"]')}
+2025-04-01 18:59:26.779 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="bb230f4eed360b43fa3711d439628704", element="f.C416B416C59D19BDFC70A08F29A25257.d.A32EB4D0067C02B1949DE204267CB415.e.3")>
+2025-04-01 18:59:27.055 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 18:59:27.056 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('xpath', '//input[@class="el-input__inner" and @type="password"]'), '123456')
+2025-04-01 18:59:27.056 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//input[@class="el-input__inner" and @type="password"]')}
+2025-04-01 18:59:27.068 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="bb230f4eed360b43fa3711d439628704", element="f.C416B416C59D19BDFC70A08F29A25257.d.A32EB4D0067C02B1949DE204267CB415.e.4")>
+2025-04-01 18:59:27.121 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 18:59:27.121 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', "//*[text()='登录']"),)
+2025-04-01 18:59:27.122 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='登录']")}
+2025-04-01 18:59:27.131 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="bb230f4eed360b43fa3711d439628704", element="f.C416B416C59D19BDFC70A08F29A25257.d.A32EB4D0067C02B1949DE204267CB415.e.12")>
+2025-04-01 18:59:27.194 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 18:59:27.194 | INFO     | src.utils.logger:info:49 - 执行函数：asster执行参数：(('xpath', "//*[text()='登录成功']"),)
+2025-04-01 18:59:27.194 | INFO     | src.utils.logger:info:49 - 执行函数：find_elements执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='登录成功']")}
+2025-04-01 18:59:27.718 | INFO     | src.utils.logger:info:49 - 执行结果为：[<selenium.webdriver.remote.webelement.WebElement (session="bb230f4eed360b43fa3711d439628704", element="f.C416B416C59D19BDFC70A08F29A25257.d.A32EB4D0067C02B1949DE204267CB415.e.20")>]
+2025-04-01 18:59:27.719 | INFO     | src.utils.logger:info:49 - 执行结果为：[<selenium.webdriver.remote.webelement.WebElement (session="bb230f4eed360b43fa3711d439628704", element="f.C416B416C59D19BDFC70A08F29A25257.d.A32EB4D0067C02B1949DE204267CB415.e.20")>]
+2025-04-01 18:59:27.723 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', "//*[@class='el-icon-lx-hot']"),)
+2025-04-01 18:59:27.723 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[@class='el-icon-lx-hot']")}
+2025-04-01 18:59:27.733 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="bb230f4eed360b43fa3711d439628704", element="f.C416B416C59D19BDFC70A08F29A25257.d.A32EB4D0067C02B1949DE204267CB415.e.21")>
+2025-04-01 18:59:27.775 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 18:59:27.775 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(3,)
+2025-04-01 18:59:30.779 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 18:59:30.779 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', '//*[text()="奥特曼测试707600"]/../following-sibling::td[4]/div/button[2]'),)
+2025-04-01 18:59:30.779 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//*[text()="奥特曼测试707600"]/../following-sibling::td[4]/div/button[2]')}
+2025-04-01 18:59:30.795 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="bb230f4eed360b43fa3711d439628704", element="f.C416B416C59D19BDFC70A08F29A25257.d.A32EB4D0067C02B1949DE204267CB415.e.30")>
+2025-04-01 18:59:30.838 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 18:59:30.838 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 18:59:31.843 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 18:59:31.843 | INFO     | src.utils.logger:info:49 - 执行函数：text执行参数：(('xpath', '//*[text()="奥特曼测试707600"]/../following-sibling::td[3]/div/span'),)
+2025-04-01 18:59:31.843 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//*[text()="奥特曼测试707600"]/../following-sibling::td[3]/div/span')}
+2025-04-01 18:59:31.861 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="bb230f4eed360b43fa3711d439628704", element="f.C416B416C59D19BDFC70A08F29A25257.d.A32EB4D0067C02B1949DE204267CB415.e.31")>
+2025-04-01 18:59:31.874 | INFO     | src.utils.logger:info:49 - 执行结果为：停用
+2025-04-01 18:59:31.877 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', "//*[@class='el-icon-lx-hot']"),)
+2025-04-01 18:59:31.877 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[@class='el-icon-lx-hot']")}
+2025-04-01 18:59:31.884 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="bb230f4eed360b43fa3711d439628704", element="f.C416B416C59D19BDFC70A08F29A25257.d.A32EB4D0067C02B1949DE204267CB415.e.21")>
+2025-04-01 18:59:31.927 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 18:59:31.927 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(3,)
+2025-04-01 18:59:34.932 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 18:59:34.933 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', '//*[text()="奥特曼测试707600"]/../following-sibling::td[4]/div/button[2]'),)
+2025-04-01 18:59:34.934 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//*[text()="奥特曼测试707600"]/../following-sibling::td[4]/div/button[2]')}
+2025-04-01 18:59:34.945 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="bb230f4eed360b43fa3711d439628704", element="f.C416B416C59D19BDFC70A08F29A25257.d.A32EB4D0067C02B1949DE204267CB415.e.30")>
+2025-04-01 18:59:34.981 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 18:59:34.981 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 18:59:35.983 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 18:59:35.984 | INFO     | src.utils.logger:info:49 - 执行函数：text执行参数：(('xpath', '//*[text()="奥特曼测试707600"]/../following-sibling::td[3]/div/span'),)
+2025-04-01 18:59:35.984 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//*[text()="奥特曼测试707600"]/../following-sibling::td[3]/div/span')}
+2025-04-01 18:59:35.997 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="bb230f4eed360b43fa3711d439628704", element="f.C416B416C59D19BDFC70A08F29A25257.d.A32EB4D0067C02B1949DE204267CB415.e.31")>
+2025-04-01 18:59:36.005 | INFO     | src.utils.logger:info:49 - 执行结果为：启用
+2025-04-01 18:59:36.012 | INFO     | src.utils.logger:info:49 - 执行函数：delete_all_cookies执行参数：()
+2025-04-01 18:59:36.017 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 18:59:36.017 | INFO     | src.utils.logger:info:49 - 执行函数：quit执行参数：()
+2025-04-01 18:59:36.244 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 18:59:36.246 | INFO     | src.utils.logger:info:49 - 执行函数：get执行参数：('http://www.liuyanzu.tech/task/manage/#/login',)
+2025-04-01 18:59:36.268 | INFO     | src.utils.logger:info:49 - 执行出错Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+ConnectionRefusedError: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+    ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<6 lines>...
+        enforce_content_length=enforce_content_length,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+    ~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1333, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1093, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1037, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+                ~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+        self, f"Failed to establish a new connection: {e}"
+    ) from e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x1136ee8b0>: Failed to establish a new connection: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/admin/Documents/pythonproject/servemanage/src/utils/logger.py", line 89, in log_action
+    retval=func(*args,**kwargs)
+  File "/Users/admin/Documents/pythonproject/servemanage/src/utils/pyselenium.py", line 85, in get
+    self.__driver.get(url)
+    ~~~~~~~~~~~~~~~~~^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 454, in get
+    self.execute(Command.GET, {"url": url})
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 427, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 404, in execute
+    return self._request(command_info[0], url, body=data)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 428, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ~~~~~~~~~~~~~~~~~~~~~~~~^
+        method, url, fields=fields, headers=headers, **urlopen_kw
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=54358): Max retries exceeded with url: /session/bb230f4eed360b43fa3711d439628704/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1136ee8b0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+
+2025-04-01 19:04:36.866 | INFO     | src.utils.logger:info:49 - 执行函数：get执行参数：('http://www.liuyanzu.tech/task/manage/#/login',)
+2025-04-01 19:04:38.109 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:38.133 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('xpath', '//input[@class="el-input__inner" and @type="text"]'), 'admin')
+2025-04-01 19:04:38.133 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//input[@class="el-input__inner" and @type="text"]')}
+2025-04-01 19:04:38.169 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1ed10ce4c4aa6c4aff66a3c04bb979e5", element="f.8FA7367A77074AB0DC7EE9B50A2BA393.d.4C0E0AC7DAEF1A402C15FFC8BA6403CC.e.3")>
+2025-04-01 19:04:38.371 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:38.371 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('xpath', '//input[@class="el-input__inner" and @type="password"]'), '123456')
+2025-04-01 19:04:38.371 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//input[@class="el-input__inner" and @type="password"]')}
+2025-04-01 19:04:38.381 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1ed10ce4c4aa6c4aff66a3c04bb979e5", element="f.8FA7367A77074AB0DC7EE9B50A2BA393.d.4C0E0AC7DAEF1A402C15FFC8BA6403CC.e.4")>
+2025-04-01 19:04:38.438 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:38.438 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', "//*[text()='登录']"),)
+2025-04-01 19:04:38.439 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='登录']")}
+2025-04-01 19:04:38.449 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1ed10ce4c4aa6c4aff66a3c04bb979e5", element="f.8FA7367A77074AB0DC7EE9B50A2BA393.d.4C0E0AC7DAEF1A402C15FFC8BA6403CC.e.12")>
+2025-04-01 19:04:38.512 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:38.513 | INFO     | src.utils.logger:info:49 - 执行函数：asster执行参数：(('xpath', "//*[text()='登录成功']"),)
+2025-04-01 19:04:38.513 | INFO     | src.utils.logger:info:49 - 执行函数：find_elements执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='登录成功']")}
+2025-04-01 19:04:39.046 | INFO     | src.utils.logger:info:49 - 执行结果为：[<selenium.webdriver.remote.webelement.WebElement (session="1ed10ce4c4aa6c4aff66a3c04bb979e5", element="f.8FA7367A77074AB0DC7EE9B50A2BA393.d.4C0E0AC7DAEF1A402C15FFC8BA6403CC.e.20")>]
+2025-04-01 19:04:39.047 | INFO     | src.utils.logger:info:49 - 执行结果为：[<selenium.webdriver.remote.webelement.WebElement (session="1ed10ce4c4aa6c4aff66a3c04bb979e5", element="f.8FA7367A77074AB0DC7EE9B50A2BA393.d.4C0E0AC7DAEF1A402C15FFC8BA6403CC.e.20")>]
+2025-04-01 19:04:39.048 | INFO     | src.utils.logger:info:49 - 执行函数：get执行参数：('http://www.liuyanzu.tech/task/manage/#/userList',)
+2025-04-01 19:04:39.073 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:39.076 | INFO     | src.utils.logger:info:49 - 执行函数：refresh执行参数：()
+2025-04-01 19:04:39.389 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:39.405 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:04:40.410 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:40.411 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', "//*[text()='新增用户']"),)
+2025-04-01 19:04:40.411 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='新增用户']")}
+2025-04-01 19:04:40.442 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1ed10ce4c4aa6c4aff66a3c04bb979e5", element="f.8FA7367A77074AB0DC7EE9B50A2BA393.d.7CA9070539498847275CD6ADDA19B77A.e.98")>
+2025-04-01 19:04:40.526 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:40.526 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:04:41.530 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:41.531 | INFO     | src.utils.logger:info:49 - 执行函数：type_clear执行参数：(('xpath', "//*[text()='昵称']/../div/div/input"),)
+2025-04-01 19:04:41.531 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：(('xpath', "//*[text()='昵称']/../div/div/input"),)
+2025-04-01 19:04:41.550 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1ed10ce4c4aa6c4aff66a3c04bb979e5", element="f.8FA7367A77074AB0DC7EE9B50A2BA393.d.7CA9070539498847275CD6ADDA19B77A.e.102")>
+2025-04-01 19:04:41.578 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:41.579 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:04:42.584 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:42.585 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('xpath', "//*[text()='昵称']/../div/div/input"), '用户测试240874')
+2025-04-01 19:04:42.585 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='昵称']/../div/div/input")}
+2025-04-01 19:04:42.599 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1ed10ce4c4aa6c4aff66a3c04bb979e5", element="f.8FA7367A77074AB0DC7EE9B50A2BA393.d.7CA9070539498847275CD6ADDA19B77A.e.102")>
+2025-04-01 19:04:42.707 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:42.708 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:04:43.710 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:43.711 | INFO     | src.utils.logger:info:49 - 执行函数：type_clear执行参数：(('xpath', "//*[text()='手机']/../div/div/input"),)
+2025-04-01 19:04:43.711 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：(('xpath', "//*[text()='手机']/../div/div/input"),)
+2025-04-01 19:04:43.729 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1ed10ce4c4aa6c4aff66a3c04bb979e5", element="f.8FA7367A77074AB0DC7EE9B50A2BA393.d.7CA9070539498847275CD6ADDA19B77A.e.103")>
+2025-04-01 19:04:43.752 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:43.752 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:04:44.754 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:44.755 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('xpath', "//*[text()='手机']/../div/div/input"), '139845')
+2025-04-01 19:04:44.755 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='手机']/../div/div/input")}
+2025-04-01 19:04:44.769 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1ed10ce4c4aa6c4aff66a3c04bb979e5", element="f.8FA7367A77074AB0DC7EE9B50A2BA393.d.7CA9070539498847275CD6ADDA19B77A.e.103")>
+2025-04-01 19:04:44.846 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:44.846 | INFO     | src.utils.logger:info:49 - 执行函数：exeute_js执行参数：('document.querySelector(".el-upload__input").style.display="block"',)
+2025-04-01 19:04:44.852 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:44.852 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:04:45.856 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:45.856 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('xpath', "//*[@class='el-upload el-upload--picture']/input"), '/Users/admin/Documents/pythonproject/servemanage/data/Snipaste_2025-03-18_19-36-22.png')
+2025-04-01 19:04:45.857 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[@class='el-upload el-upload--picture']/input")}
+2025-04-01 19:04:45.870 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1ed10ce4c4aa6c4aff66a3c04bb979e5", element="f.8FA7367A77074AB0DC7EE9B50A2BA393.d.7CA9070539498847275CD6ADDA19B77A.e.110")>
+2025-04-01 19:04:45.915 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:45.918 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:04:46.921 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:46.922 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', "//*[@id='app']/div/div[3]/div[2]/div/div[4]/div/div[3]/span/button[2]"),)
+2025-04-01 19:04:46.922 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[@id='app']/div/div[3]/div[2]/div/div[4]/div/div[3]/span/button[2]")}
+2025-04-01 19:04:46.936 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1ed10ce4c4aa6c4aff66a3c04bb979e5", element="f.8FA7367A77074AB0DC7EE9B50A2BA393.d.7CA9070539498847275CD6ADDA19B77A.e.114")>
+2025-04-01 19:04:47.003 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:47.003 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(5,)
+2025-04-01 19:04:52.006 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:52.007 | INFO     | src.utils.logger:info:49 - 执行函数：refresh执行参数：()
+2025-04-01 19:04:52.193 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:52.194 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:04:53.197 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:53.198 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('xpath', '//*[@placeholder="手机号"]'), '139845')
+2025-04-01 19:04:53.199 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//*[@placeholder="手机号"]')}
+2025-04-01 19:04:53.216 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1ed10ce4c4aa6c4aff66a3c04bb979e5", element="f.8FA7367A77074AB0DC7EE9B50A2BA393.d.C5DC3EF92C8DF4E3F4A2C305920B2F63.e.125")>
+2025-04-01 19:04:53.314 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:53.314 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:04:54.318 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:54.319 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', '//button[@class="el-button el-button--primary el-button--small"]/span[text()="搜索"]'),)
+2025-04-01 19:04:54.319 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//button[@class="el-button el-button--primary el-button--small"]/span[text()="搜索"]')}
+2025-04-01 19:04:54.335 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1ed10ce4c4aa6c4aff66a3c04bb979e5", element="f.8FA7367A77074AB0DC7EE9B50A2BA393.d.C5DC3EF92C8DF4E3F4A2C305920B2F63.e.186")>
+2025-04-01 19:04:54.402 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:54.402 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:04:55.407 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:55.407 | INFO     | src.utils.logger:info:49 - 执行函数：text执行参数：(('xpath', "//*[text()='用户测试240874']"),)
+2025-04-01 19:04:55.408 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='用户测试240874']")}
+2025-04-01 19:04:55.424 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1ed10ce4c4aa6c4aff66a3c04bb979e5", element="f.8FA7367A77074AB0DC7EE9B50A2BA393.d.C5DC3EF92C8DF4E3F4A2C305920B2F63.e.188")>
+2025-04-01 19:04:55.439 | INFO     | src.utils.logger:info:49 - 执行结果为：用户测试240874
+2025-04-01 19:04:55.439 | INFO     | src.utils.logger:info:49 - 执行函数：text执行参数：(('xpath', "//*[text()='139845']"),)
+2025-04-01 19:04:55.439 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='139845']")}
+2025-04-01 19:04:55.512 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1ed10ce4c4aa6c4aff66a3c04bb979e5", element="f.8FA7367A77074AB0DC7EE9B50A2BA393.d.C5DC3EF92C8DF4E3F4A2C305920B2F63.e.189")>
+2025-04-01 19:04:55.521 | INFO     | src.utils.logger:info:49 - 执行结果为：139845
+2025-04-01 19:04:55.522 | INFO     | src.utils.logger:info:49 - 执行函数：text执行参数：(('xpath', "//*[text()='用户测试240874']"),)
+2025-04-01 19:04:55.522 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='用户测试240874']")}
+2025-04-01 19:04:55.530 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1ed10ce4c4aa6c4aff66a3c04bb979e5", element="f.8FA7367A77074AB0DC7EE9B50A2BA393.d.C5DC3EF92C8DF4E3F4A2C305920B2F63.e.188")>
+2025-04-01 19:04:55.538 | INFO     | src.utils.logger:info:49 - 执行结果为：用户测试240874
+2025-04-01 19:04:55.538 | INFO     | src.utils.logger:info:49 - 执行函数：text执行参数：(('xpath', "//*[text()='139845']"),)
+2025-04-01 19:04:55.539 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='139845']")}
+2025-04-01 19:04:55.548 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1ed10ce4c4aa6c4aff66a3c04bb979e5", element="f.8FA7367A77074AB0DC7EE9B50A2BA393.d.C5DC3EF92C8DF4E3F4A2C305920B2F63.e.189")>
+2025-04-01 19:04:55.560 | INFO     | src.utils.logger:info:49 - 执行结果为：139845
+2025-04-01 19:04:55.563 | INFO     | src.utils.logger:info:49 - 执行函数：get执行参数：('http://www.liuyanzu.tech/task/manage/#/userList',)
+2025-04-01 19:04:55.574 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:55.574 | INFO     | src.utils.logger:info:49 - 执行函数：refresh执行参数：()
+2025-04-01 19:04:55.748 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:55.749 | INFO     | src.utils.logger:info:49 - 执行函数：type_clear执行参数：(('xpath', '//*[@placeholder="手机号"]'),)
+2025-04-01 19:04:55.749 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：(('xpath', '//*[@placeholder="手机号"]'),)
+2025-04-01 19:04:55.759 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1ed10ce4c4aa6c4aff66a3c04bb979e5", element="f.8FA7367A77074AB0DC7EE9B50A2BA393.d.377818C409FFC389A8864F2AD692D17A.e.198")>
+2025-04-01 19:04:55.806 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:55.806 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('xpath', '//*[@placeholder="手机号"]'), '139845')
+2025-04-01 19:04:55.806 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//*[@placeholder="手机号"]')}
+2025-04-01 19:04:55.821 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1ed10ce4c4aa6c4aff66a3c04bb979e5", element="f.8FA7367A77074AB0DC7EE9B50A2BA393.d.377818C409FFC389A8864F2AD692D17A.e.198")>
+2025-04-01 19:04:56.220 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:56.220 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:04:57.237 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:57.237 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', '//button[@class="el-button el-button--primary el-button--small"]/span[text()="搜索"]'),)
+2025-04-01 19:04:57.238 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//button[@class="el-button el-button--primary el-button--small"]/span[text()="搜索"]')}
+2025-04-01 19:04:57.251 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1ed10ce4c4aa6c4aff66a3c04bb979e5", element="f.8FA7367A77074AB0DC7EE9B50A2BA393.d.377818C409FFC389A8864F2AD692D17A.e.268")>
+2025-04-01 19:04:57.360 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:57.360 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:04:58.362 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:58.363 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', '//*[text()="139845"]/../../td[8]/div/button[2]'),)
+2025-04-01 19:04:58.363 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//*[text()="139845"]/../../td[8]/div/button[2]')}
+2025-04-01 19:04:58.375 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1ed10ce4c4aa6c4aff66a3c04bb979e5", element="f.8FA7367A77074AB0DC7EE9B50A2BA393.d.377818C409FFC389A8864F2AD692D17A.e.272")>
+2025-04-01 19:04:58.461 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:58.461 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:04:59.466 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:59.467 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('xpath', '//*[@id="app"]/div/div[3]/div[2]/div/div[3]/div/div[2]/form/div[1]/div/div/input'), '用户测试359688')
+2025-04-01 19:04:59.467 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//*[@id="app"]/div/div[3]/div[2]/div/div[3]/div/div[2]/form/div[1]/div/div/input')}
+2025-04-01 19:04:59.484 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1ed10ce4c4aa6c4aff66a3c04bb979e5", element="f.8FA7367A77074AB0DC7EE9B50A2BA393.d.377818C409FFC389A8864F2AD692D17A.e.274")>
+2025-04-01 19:04:59.578 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:04:59.578 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:05:00.580 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:05:00.580 | INFO     | src.utils.logger:info:49 - 执行函数：exeute_js执行参数：('document.querySelector(".el-upload__input").style.display="block"',)
+2025-04-01 19:05:00.587 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:05:00.587 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:05:01.592 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:05:01.592 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('name', 'file'), '/Users/admin/Documents/pythonproject/servemanage/data/Snipaste_2025-03-18_19-36-22.png')
+2025-04-01 19:05:01.593 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('name', 'file')}
+2025-04-01 19:05:01.606 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1ed10ce4c4aa6c4aff66a3c04bb979e5", element="f.8FA7367A77074AB0DC7EE9B50A2BA393.d.377818C409FFC389A8864F2AD692D17A.e.283")>
+2025-04-01 19:05:01.625 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:05:01.625 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:05:02.630 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:05:02.631 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', '//*[@id="app"]/div/div[3]/div[2]/div/div[3]/div/div[3]/span/button[2]'),)
+2025-04-01 19:05:02.631 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//*[@id="app"]/div/div[3]/div[2]/div/div[3]/div/div[3]/span/button[2]')}
+2025-04-01 19:05:02.651 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1ed10ce4c4aa6c4aff66a3c04bb979e5", element="f.8FA7367A77074AB0DC7EE9B50A2BA393.d.377818C409FFC389A8864F2AD692D17A.e.285")>
+2025-04-01 19:05:02.695 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:05:02.696 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:05:02.956 | INFO     | src.utils.logger:info:49 - 执行出错Traceback (most recent call last):
+  File "/Users/admin/Documents/pythonproject/servemanage/src/utils/logger.py", line 89, in log_action
+    retval=func(*args,**kwargs)
+  File "/Users/admin/Documents/pythonproject/servemanage/src/utils/pyselenium.py", line 208, in force_wait
+    time.sleep(timeout)
+    ~~~~~~~~~~^^^^^^^^^
+KeyboardInterrupt
+
+2025-04-01 19:06:49.437 | INFO     | src.utils.logger:info:49 - 执行函数：get执行参数：('http://www.liuyanzu.tech/task/manage/#/login',)
+2025-04-01 19:06:50.549 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:06:50.570 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('xpath', '//input[@class="el-input__inner" and @type="text"]'), 'admin')
+2025-04-01 19:06:50.590 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//input[@class="el-input__inner" and @type="text"]')}
+2025-04-01 19:06:50.601 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="26590e1736b889aa5f2603f91f3a0493", element="f.58481B36D306C33DD4300D8EDB82D909.d.8A14AC4024D956B8C16340510D39BB3E.e.3")>
+2025-04-01 19:06:50.827 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:06:50.827 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('xpath', '//input[@class="el-input__inner" and @type="password"]'), '123456')
+2025-04-01 19:06:50.827 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//input[@class="el-input__inner" and @type="password"]')}
+2025-04-01 19:06:50.837 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="26590e1736b889aa5f2603f91f3a0493", element="f.58481B36D306C33DD4300D8EDB82D909.d.8A14AC4024D956B8C16340510D39BB3E.e.4")>
+2025-04-01 19:06:50.884 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:06:50.884 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', "//*[text()='登录']"),)
+2025-04-01 19:06:50.884 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='登录']")}
+2025-04-01 19:06:50.893 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="26590e1736b889aa5f2603f91f3a0493", element="f.58481B36D306C33DD4300D8EDB82D909.d.8A14AC4024D956B8C16340510D39BB3E.e.12")>
+2025-04-01 19:06:50.936 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:06:50.936 | INFO     | src.utils.logger:info:49 - 执行函数：asster执行参数：(('xpath', "//*[text()='登录成功']"),)
+2025-04-01 19:06:50.936 | INFO     | src.utils.logger:info:49 - 执行函数：find_elements执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='登录成功']")}
+2025-04-01 19:06:51.478 | INFO     | src.utils.logger:info:49 - 执行结果为：[<selenium.webdriver.remote.webelement.WebElement (session="26590e1736b889aa5f2603f91f3a0493", element="f.58481B36D306C33DD4300D8EDB82D909.d.8A14AC4024D956B8C16340510D39BB3E.e.20")>]
+2025-04-01 19:06:51.479 | INFO     | src.utils.logger:info:49 - 执行结果为：[<selenium.webdriver.remote.webelement.WebElement (session="26590e1736b889aa5f2603f91f3a0493", element="f.58481B36D306C33DD4300D8EDB82D909.d.8A14AC4024D956B8C16340510D39BB3E.e.20")>]
+2025-04-01 19:06:51.481 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', "//*[@class='el-icon-lx-hot']"),)
+2025-04-01 19:06:51.481 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[@class='el-icon-lx-hot']")}
+2025-04-01 19:06:51.491 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="26590e1736b889aa5f2603f91f3a0493", element="f.58481B36D306C33DD4300D8EDB82D909.d.8A14AC4024D956B8C16340510D39BB3E.e.21")>
+2025-04-01 19:06:51.532 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:06:51.532 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(3,)
+2025-04-01 19:06:54.538 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:06:54.538 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', '//*[text()="奥特曼测试707600"]/../following-sibling::td[4]/div/button[2]'),)
+2025-04-01 19:06:54.538 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//*[text()="奥特曼测试707600"]/../following-sibling::td[4]/div/button[2]')}
+2025-04-01 19:06:54.556 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="26590e1736b889aa5f2603f91f3a0493", element="f.58481B36D306C33DD4300D8EDB82D909.d.8A14AC4024D956B8C16340510D39BB3E.e.30")>
+2025-04-01 19:06:54.599 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:06:54.599 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:06:55.603 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:06:55.604 | INFO     | src.utils.logger:info:49 - 执行函数：text执行参数：(('xpath', '//*[text()="奥特曼测试707600"]/../following-sibling::td[3]/div/span'),)
+2025-04-01 19:06:55.604 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//*[text()="奥特曼测试707600"]/../following-sibling::td[3]/div/span')}
+2025-04-01 19:06:55.621 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="26590e1736b889aa5f2603f91f3a0493", element="f.58481B36D306C33DD4300D8EDB82D909.d.8A14AC4024D956B8C16340510D39BB3E.e.31")>
+2025-04-01 19:06:55.635 | INFO     | src.utils.logger:info:49 - 执行结果为：停用
+2025-04-01 19:06:55.637 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', "//*[@class='el-icon-lx-hot']"),)
+2025-04-01 19:06:55.637 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[@class='el-icon-lx-hot']")}
+2025-04-01 19:06:55.644 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="26590e1736b889aa5f2603f91f3a0493", element="f.58481B36D306C33DD4300D8EDB82D909.d.8A14AC4024D956B8C16340510D39BB3E.e.21")>
+2025-04-01 19:06:55.688 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:06:55.689 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(3,)
+2025-04-01 19:06:58.692 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:06:58.692 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', '//*[text()="奥特曼测试707600"]/../following-sibling::td[4]/div/button[2]'),)
+2025-04-01 19:06:58.692 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//*[text()="奥特曼测试707600"]/../following-sibling::td[4]/div/button[2]')}
+2025-04-01 19:06:58.702 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="26590e1736b889aa5f2603f91f3a0493", element="f.58481B36D306C33DD4300D8EDB82D909.d.8A14AC4024D956B8C16340510D39BB3E.e.30")>
+2025-04-01 19:06:58.734 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:06:58.734 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:06:59.739 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:06:59.740 | INFO     | src.utils.logger:info:49 - 执行函数：text执行参数：(('xpath', '//*[text()="奥特曼测试707600"]/../following-sibling::td[3]/div/span'),)
+2025-04-01 19:06:59.740 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//*[text()="奥特曼测试707600"]/../following-sibling::td[3]/div/span')}
+2025-04-01 19:06:59.754 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="26590e1736b889aa5f2603f91f3a0493", element="f.58481B36D306C33DD4300D8EDB82D909.d.8A14AC4024D956B8C16340510D39BB3E.e.31")>
+2025-04-01 19:06:59.763 | INFO     | src.utils.logger:info:49 - 执行结果为：启用
+2025-04-01 19:06:59.768 | INFO     | src.utils.logger:info:49 - 执行函数：delete_all_cookies执行参数：()
+2025-04-01 19:06:59.774 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:06:59.774 | INFO     | src.utils.logger:info:49 - 执行函数：quit执行参数：()
+2025-04-01 19:07:00.020 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:19.318 | INFO     | src.utils.logger:info:49 - 执行函数：get执行参数：('http://www.liuyanzu.tech/task/manage/#/login',)
+2025-04-01 19:08:21.302 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:21.323 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('xpath', '//input[@class="el-input__inner" and @type="text"]'), 'admin')
+2025-04-01 19:08:21.324 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//input[@class="el-input__inner" and @type="text"]')}
+2025-04-01 19:08:21.359 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="873fe6db91efd03bde86fcfdd609ed7a", element="f.3C75285531D0B8FA79054D4FE45CC180.d.10B2BF2A69ED7FA9984814591BED16D5.e.3")>
+2025-04-01 19:08:21.580 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:21.580 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('xpath', '//input[@class="el-input__inner" and @type="password"]'), '123456')
+2025-04-01 19:08:21.580 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//input[@class="el-input__inner" and @type="password"]')}
+2025-04-01 19:08:21.591 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="873fe6db91efd03bde86fcfdd609ed7a", element="f.3C75285531D0B8FA79054D4FE45CC180.d.10B2BF2A69ED7FA9984814591BED16D5.e.4")>
+2025-04-01 19:08:21.640 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:21.641 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', "//*[text()='登录']"),)
+2025-04-01 19:08:21.641 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='登录']")}
+2025-04-01 19:08:21.650 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="873fe6db91efd03bde86fcfdd609ed7a", element="f.3C75285531D0B8FA79054D4FE45CC180.d.10B2BF2A69ED7FA9984814591BED16D5.e.12")>
+2025-04-01 19:08:21.712 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:21.712 | INFO     | src.utils.logger:info:49 - 执行函数：asster执行参数：(('xpath', "//*[text()='登录成功']"),)
+2025-04-01 19:08:21.712 | INFO     | src.utils.logger:info:49 - 执行函数：find_elements执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='登录成功']")}
+2025-04-01 19:08:22.238 | INFO     | src.utils.logger:info:49 - 执行结果为：[<selenium.webdriver.remote.webelement.WebElement (session="873fe6db91efd03bde86fcfdd609ed7a", element="f.3C75285531D0B8FA79054D4FE45CC180.d.10B2BF2A69ED7FA9984814591BED16D5.e.20")>]
+2025-04-01 19:08:22.238 | INFO     | src.utils.logger:info:49 - 执行结果为：[<selenium.webdriver.remote.webelement.WebElement (session="873fe6db91efd03bde86fcfdd609ed7a", element="f.3C75285531D0B8FA79054D4FE45CC180.d.10B2BF2A69ED7FA9984814591BED16D5.e.20")>]
+2025-04-01 19:08:22.239 | INFO     | src.utils.logger:info:49 - 执行函数：get执行参数：('http://www.liuyanzu.tech/task/manage/#/userList',)
+2025-04-01 19:08:22.248 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:22.249 | INFO     | src.utils.logger:info:49 - 执行函数：refresh执行参数：()
+2025-04-01 19:08:22.443 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:22.445 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:08:23.451 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:23.451 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', "//*[text()='新增用户']"),)
+2025-04-01 19:08:23.451 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='新增用户']")}
+2025-04-01 19:08:23.467 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="873fe6db91efd03bde86fcfdd609ed7a", element="f.3C75285531D0B8FA79054D4FE45CC180.d.1F1EE488AB8C75CD03B2ABFE128AE686.e.86")>
+2025-04-01 19:08:23.520 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:23.521 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:08:24.524 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:24.525 | INFO     | src.utils.logger:info:49 - 执行函数：type_clear执行参数：(('xpath', "//*[text()='昵称']/../div/div/input"),)
+2025-04-01 19:08:24.525 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：(('xpath', "//*[text()='昵称']/../div/div/input"),)
+2025-04-01 19:08:24.538 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="873fe6db91efd03bde86fcfdd609ed7a", element="f.3C75285531D0B8FA79054D4FE45CC180.d.1F1EE488AB8C75CD03B2ABFE128AE686.e.90")>
+2025-04-01 19:08:24.561 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:24.561 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:08:25.565 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:25.565 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('xpath', "//*[text()='昵称']/../div/div/input"), '用户测试505635')
+2025-04-01 19:08:25.565 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='昵称']/../div/div/input")}
+2025-04-01 19:08:25.572 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="873fe6db91efd03bde86fcfdd609ed7a", element="f.3C75285531D0B8FA79054D4FE45CC180.d.1F1EE488AB8C75CD03B2ABFE128AE686.e.90")>
+2025-04-01 19:08:25.741 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:25.751 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:08:26.755 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:26.755 | INFO     | src.utils.logger:info:49 - 执行函数：type_clear执行参数：(('xpath', "//*[text()='手机']/../div/div/input"),)
+2025-04-01 19:08:26.756 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：(('xpath', "//*[text()='手机']/../div/div/input"),)
+2025-04-01 19:08:26.769 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="873fe6db91efd03bde86fcfdd609ed7a", element="f.3C75285531D0B8FA79054D4FE45CC180.d.1F1EE488AB8C75CD03B2ABFE128AE686.e.91")>
+2025-04-01 19:08:26.787 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:26.787 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:08:27.791 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:27.791 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('xpath', "//*[text()='手机']/../div/div/input"), '324213')
+2025-04-01 19:08:27.791 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='手机']/../div/div/input")}
+2025-04-01 19:08:27.812 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="873fe6db91efd03bde86fcfdd609ed7a", element="f.3C75285531D0B8FA79054D4FE45CC180.d.1F1EE488AB8C75CD03B2ABFE128AE686.e.91")>
+2025-04-01 19:08:27.879 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:27.879 | INFO     | src.utils.logger:info:49 - 执行函数：exeute_js执行参数：('document.querySelector(".el-upload__input").style.display="block"',)
+2025-04-01 19:08:27.887 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:27.887 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:08:28.891 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:28.893 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('xpath', "//*[@class='el-upload el-upload--picture']/input"), '/Users/admin/Documents/pythonproject/servemanage/data/Snipaste_2025-03-18_19-36-22.png')
+2025-04-01 19:08:28.893 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[@class='el-upload el-upload--picture']/input")}
+2025-04-01 19:08:28.907 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="873fe6db91efd03bde86fcfdd609ed7a", element="f.3C75285531D0B8FA79054D4FE45CC180.d.1F1EE488AB8C75CD03B2ABFE128AE686.e.98")>
+2025-04-01 19:08:28.935 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:28.936 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:08:29.941 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:29.942 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', "//*[@id='app']/div/div[3]/div[2]/div/div[4]/div/div[3]/span/button[2]"),)
+2025-04-01 19:08:29.943 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[@id='app']/div/div[3]/div[2]/div/div[4]/div/div[3]/span/button[2]")}
+2025-04-01 19:08:29.957 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="873fe6db91efd03bde86fcfdd609ed7a", element="f.3C75285531D0B8FA79054D4FE45CC180.d.1F1EE488AB8C75CD03B2ABFE128AE686.e.102")>
+2025-04-01 19:08:29.998 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:29.998 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(5,)
+2025-04-01 19:08:35.003 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:35.004 | INFO     | src.utils.logger:info:49 - 执行函数：refresh执行参数：()
+2025-04-01 19:08:35.174 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:35.174 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:08:36.179 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:36.297 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('xpath', '//*[@placeholder="手机号"]'), '324213')
+2025-04-01 19:08:36.306 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//*[@placeholder="手机号"]')}
+2025-04-01 19:08:36.337 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="873fe6db91efd03bde86fcfdd609ed7a", element="f.3C75285531D0B8FA79054D4FE45CC180.d.D1402471655FE82D16F9E7E4C4B64B07.e.129")>
+2025-04-01 19:08:36.452 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:36.452 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:08:37.455 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:37.456 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', '//button[@class="el-button el-button--primary el-button--small"]/span[text()="搜索"]'),)
+2025-04-01 19:08:37.456 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//button[@class="el-button el-button--primary el-button--small"]/span[text()="搜索"]')}
+2025-04-01 19:08:37.467 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="873fe6db91efd03bde86fcfdd609ed7a", element="f.3C75285531D0B8FA79054D4FE45CC180.d.D1402471655FE82D16F9E7E4C4B64B07.e.174")>
+2025-04-01 19:08:37.501 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:37.501 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:08:38.505 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:38.505 | INFO     | src.utils.logger:info:49 - 执行函数：text执行参数：(('xpath', "//*[text()='用户测试505635']"),)
+2025-04-01 19:08:38.506 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='用户测试505635']")}
+2025-04-01 19:08:38.522 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="873fe6db91efd03bde86fcfdd609ed7a", element="f.3C75285531D0B8FA79054D4FE45CC180.d.D1402471655FE82D16F9E7E4C4B64B07.e.176")>
+2025-04-01 19:08:38.533 | INFO     | src.utils.logger:info:49 - 执行结果为：用户测试505635
+2025-04-01 19:08:38.533 | INFO     | src.utils.logger:info:49 - 执行函数：text执行参数：(('xpath', "//*[text()='324213']"),)
+2025-04-01 19:08:38.533 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='324213']")}
+2025-04-01 19:08:38.541 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="873fe6db91efd03bde86fcfdd609ed7a", element="f.3C75285531D0B8FA79054D4FE45CC180.d.D1402471655FE82D16F9E7E4C4B64B07.e.177")>
+2025-04-01 19:08:38.547 | INFO     | src.utils.logger:info:49 - 执行结果为：324213
+2025-04-01 19:08:38.547 | INFO     | src.utils.logger:info:49 - 执行函数：text执行参数：(('xpath', "//*[text()='用户测试505635']"),)
+2025-04-01 19:08:38.548 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='用户测试505635']")}
+2025-04-01 19:08:38.553 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="873fe6db91efd03bde86fcfdd609ed7a", element="f.3C75285531D0B8FA79054D4FE45CC180.d.D1402471655FE82D16F9E7E4C4B64B07.e.176")>
+2025-04-01 19:08:38.559 | INFO     | src.utils.logger:info:49 - 执行结果为：用户测试505635
+2025-04-01 19:08:38.559 | INFO     | src.utils.logger:info:49 - 执行函数：text执行参数：(('xpath', "//*[text()='324213']"),)
+2025-04-01 19:08:38.559 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='324213']")}
+2025-04-01 19:08:38.565 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="873fe6db91efd03bde86fcfdd609ed7a", element="f.3C75285531D0B8FA79054D4FE45CC180.d.D1402471655FE82D16F9E7E4C4B64B07.e.177")>
+2025-04-01 19:08:38.570 | INFO     | src.utils.logger:info:49 - 执行结果为：324213
+2025-04-01 19:08:38.574 | INFO     | src.utils.logger:info:49 - 执行函数：get执行参数：('http://www.liuyanzu.tech/task/manage/#/userList',)
+2025-04-01 19:08:38.583 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:38.583 | INFO     | src.utils.logger:info:49 - 执行函数：refresh执行参数：()
+2025-04-01 19:08:38.743 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:38.744 | INFO     | src.utils.logger:info:49 - 执行函数：type_clear执行参数：(('xpath', '//*[@placeholder="手机号"]'),)
+2025-04-01 19:08:38.744 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：(('xpath', '//*[@placeholder="手机号"]'),)
+2025-04-01 19:08:38.761 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="873fe6db91efd03bde86fcfdd609ed7a", element="f.3C75285531D0B8FA79054D4FE45CC180.d.C49004C33DC84F7239F44057C4C2E259.e.202")>
+2025-04-01 19:08:38.796 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:38.797 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('xpath', '//*[@placeholder="手机号"]'), '324213')
+2025-04-01 19:08:38.797 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//*[@placeholder="手机号"]')}
+2025-04-01 19:08:38.807 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="873fe6db91efd03bde86fcfdd609ed7a", element="f.3C75285531D0B8FA79054D4FE45CC180.d.C49004C33DC84F7239F44057C4C2E259.e.202")>
+2025-04-01 19:08:39.084 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:39.084 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:08:39.454 | INFO     | src.utils.logger:info:49 - 执行出错Traceback (most recent call last):
+  File "/Users/admin/Documents/pythonproject/servemanage/src/utils/logger.py", line 89, in log_action
+    retval=func(*args,**kwargs)
+  File "/Users/admin/Documents/pythonproject/servemanage/src/utils/pyselenium.py", line 208, in force_wait
+    time.sleep(timeout)
+    ~~~~~~~~~~^^^^^^^^^
+KeyboardInterrupt
+
+2025-04-01 19:08:44.269 | INFO     | src.utils.logger:info:49 - 执行函数：get执行参数：('http://www.liuyanzu.tech/task/manage/#/login',)
+2025-04-01 19:08:45.268 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:45.269 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('xpath', '//input[@class="el-input__inner" and @type="text"]'), 'admin')
+2025-04-01 19:08:45.270 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//input[@class="el-input__inner" and @type="text"]')}
+2025-04-01 19:08:45.284 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1000dfe4021a6f93c7de708dd77bea6a", element="f.A62C4E71B02A6AD0924DFF2F38CA3B72.d.9E304CE4FB28D775EDD2A6AD2FBC1EE8.e.3")>
+2025-04-01 19:08:45.421 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:45.421 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('xpath', '//input[@class="el-input__inner" and @type="password"]'), '123456')
+2025-04-01 19:08:45.421 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//input[@class="el-input__inner" and @type="password"]')}
+2025-04-01 19:08:45.430 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1000dfe4021a6f93c7de708dd77bea6a", element="f.A62C4E71B02A6AD0924DFF2F38CA3B72.d.9E304CE4FB28D775EDD2A6AD2FBC1EE8.e.4")>
+2025-04-01 19:08:45.465 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:45.465 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', "//*[text()='登录']"),)
+2025-04-01 19:08:45.465 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='登录']")}
+2025-04-01 19:08:45.475 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1000dfe4021a6f93c7de708dd77bea6a", element="f.A62C4E71B02A6AD0924DFF2F38CA3B72.d.9E304CE4FB28D775EDD2A6AD2FBC1EE8.e.12")>
+2025-04-01 19:08:45.527 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:45.527 | INFO     | src.utils.logger:info:49 - 执行函数：asster执行参数：(('xpath', "//*[text()='登录成功']"),)
+2025-04-01 19:08:45.527 | INFO     | src.utils.logger:info:49 - 执行函数：find_elements执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='登录成功']")}
+2025-04-01 19:08:46.048 | INFO     | src.utils.logger:info:49 - 执行结果为：[<selenium.webdriver.remote.webelement.WebElement (session="1000dfe4021a6f93c7de708dd77bea6a", element="f.A62C4E71B02A6AD0924DFF2F38CA3B72.d.9E304CE4FB28D775EDD2A6AD2FBC1EE8.e.20")>]
+2025-04-01 19:08:46.048 | INFO     | src.utils.logger:info:49 - 执行结果为：[<selenium.webdriver.remote.webelement.WebElement (session="1000dfe4021a6f93c7de708dd77bea6a", element="f.A62C4E71B02A6AD0924DFF2F38CA3B72.d.9E304CE4FB28D775EDD2A6AD2FBC1EE8.e.20")>]
+2025-04-01 19:08:46.049 | INFO     | src.utils.logger:info:49 - 执行函数：get执行参数：('http://www.liuyanzu.tech/task/manage/#/userList',)
+2025-04-01 19:08:46.056 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:46.058 | INFO     | src.utils.logger:info:49 - 执行函数：refresh执行参数：()
+2025-04-01 19:08:46.240 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:46.242 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:08:47.246 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:47.246 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', "//*[text()='新增用户']"),)
+2025-04-01 19:08:47.247 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='新增用户']")}
+2025-04-01 19:08:47.263 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1000dfe4021a6f93c7de708dd77bea6a", element="f.A62C4E71B02A6AD0924DFF2F38CA3B72.d.CCBF465655D77AF24EFE2F13DB4385D3.e.86")>
+2025-04-01 19:08:47.319 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:47.319 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:08:48.322 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:48.322 | INFO     | src.utils.logger:info:49 - 执行函数：type_clear执行参数：(('xpath', "//*[text()='昵称']/../div/div/input"),)
+2025-04-01 19:08:48.323 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：(('xpath', "//*[text()='昵称']/../div/div/input"),)
+2025-04-01 19:08:48.343 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1000dfe4021a6f93c7de708dd77bea6a", element="f.A62C4E71B02A6AD0924DFF2F38CA3B72.d.CCBF465655D77AF24EFE2F13DB4385D3.e.90")>
+2025-04-01 19:08:48.364 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:48.364 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:08:49.369 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:49.369 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('xpath', "//*[text()='昵称']/../div/div/input"), '用户测试550115')
+2025-04-01 19:08:49.370 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='昵称']/../div/div/input")}
+2025-04-01 19:08:49.380 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1000dfe4021a6f93c7de708dd77bea6a", element="f.A62C4E71B02A6AD0924DFF2F38CA3B72.d.CCBF465655D77AF24EFE2F13DB4385D3.e.90")>
+2025-04-01 19:08:49.458 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:49.458 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:08:50.463 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:50.463 | INFO     | src.utils.logger:info:49 - 执行函数：type_clear执行参数：(('xpath', "//*[text()='手机']/../div/div/input"),)
+2025-04-01 19:08:50.464 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：(('xpath', "//*[text()='手机']/../div/div/input"),)
+2025-04-01 19:08:50.479 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1000dfe4021a6f93c7de708dd77bea6a", element="f.A62C4E71B02A6AD0924DFF2F38CA3B72.d.CCBF465655D77AF24EFE2F13DB4385D3.e.91")>
+2025-04-01 19:08:50.499 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:50.499 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:08:51.503 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:51.504 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('xpath', "//*[text()='手机']/../div/div/input"), '608499')
+2025-04-01 19:08:51.504 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='手机']/../div/div/input")}
+2025-04-01 19:08:51.516 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1000dfe4021a6f93c7de708dd77bea6a", element="f.A62C4E71B02A6AD0924DFF2F38CA3B72.d.CCBF465655D77AF24EFE2F13DB4385D3.e.91")>
+2025-04-01 19:08:51.565 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:51.565 | INFO     | src.utils.logger:info:49 - 执行函数：exeute_js执行参数：('document.querySelector(".el-upload__input").style.display="block"',)
+2025-04-01 19:08:51.569 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:51.569 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:08:52.570 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:52.570 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('xpath', "//*[@class='el-upload el-upload--picture']/input"), '/Users/admin/Documents/pythonproject/servemanage/data/Snipaste_2025-03-18_19-36-22.png')
+2025-04-01 19:08:52.570 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[@class='el-upload el-upload--picture']/input")}
+2025-04-01 19:08:52.584 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1000dfe4021a6f93c7de708dd77bea6a", element="f.A62C4E71B02A6AD0924DFF2F38CA3B72.d.CCBF465655D77AF24EFE2F13DB4385D3.e.98")>
+2025-04-01 19:08:52.613 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:52.613 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:08:53.616 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:53.617 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', "//*[@id='app']/div/div[3]/div[2]/div/div[4]/div/div[3]/span/button[2]"),)
+2025-04-01 19:08:53.617 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[@id='app']/div/div[3]/div[2]/div/div[4]/div/div[3]/span/button[2]")}
+2025-04-01 19:08:53.630 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1000dfe4021a6f93c7de708dd77bea6a", element="f.A62C4E71B02A6AD0924DFF2F38CA3B72.d.CCBF465655D77AF24EFE2F13DB4385D3.e.102")>
+2025-04-01 19:08:53.680 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:53.680 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(5,)
+2025-04-01 19:08:58.683 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:58.684 | INFO     | src.utils.logger:info:49 - 执行函数：refresh执行参数：()
+2025-04-01 19:08:58.839 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:58.840 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:08:59.844 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:59.845 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('xpath', '//*[@placeholder="手机号"]'), '608499')
+2025-04-01 19:08:59.845 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//*[@placeholder="手机号"]')}
+2025-04-01 19:08:59.863 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1000dfe4021a6f93c7de708dd77bea6a", element="f.A62C4E71B02A6AD0924DFF2F38CA3B72.d.8B9A769556AAA5A74B14025211A72F78.e.113")>
+2025-04-01 19:08:59.908 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:08:59.909 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:09:00.913 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:09:00.914 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', '//button[@class="el-button el-button--primary el-button--small"]/span[text()="搜索"]'),)
+2025-04-01 19:09:00.914 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//button[@class="el-button el-button--primary el-button--small"]/span[text()="搜索"]')}
+2025-04-01 19:09:00.928 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1000dfe4021a6f93c7de708dd77bea6a", element="f.A62C4E71B02A6AD0924DFF2F38CA3B72.d.8B9A769556AAA5A74B14025211A72F78.e.174")>
+2025-04-01 19:09:00.969 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:09:00.969 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:09:01.973 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:09:01.974 | INFO     | src.utils.logger:info:49 - 执行函数：text执行参数：(('xpath', "//*[text()='用户测试550115']"),)
+2025-04-01 19:09:01.974 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='用户测试550115']")}
+2025-04-01 19:09:01.992 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1000dfe4021a6f93c7de708dd77bea6a", element="f.A62C4E71B02A6AD0924DFF2F38CA3B72.d.8B9A769556AAA5A74B14025211A72F78.e.176")>
+2025-04-01 19:09:02.005 | INFO     | src.utils.logger:info:49 - 执行结果为：用户测试550115
+2025-04-01 19:09:02.005 | INFO     | src.utils.logger:info:49 - 执行函数：text执行参数：(('xpath', "//*[text()='608499']"),)
+2025-04-01 19:09:02.006 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='608499']")}
+2025-04-01 19:09:02.015 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1000dfe4021a6f93c7de708dd77bea6a", element="f.A62C4E71B02A6AD0924DFF2F38CA3B72.d.8B9A769556AAA5A74B14025211A72F78.e.177")>
+2025-04-01 19:09:02.022 | INFO     | src.utils.logger:info:49 - 执行结果为：608499
+2025-04-01 19:09:02.023 | INFO     | src.utils.logger:info:49 - 执行函数：text执行参数：(('xpath', "//*[text()='用户测试550115']"),)
+2025-04-01 19:09:02.023 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='用户测试550115']")}
+2025-04-01 19:09:02.029 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1000dfe4021a6f93c7de708dd77bea6a", element="f.A62C4E71B02A6AD0924DFF2F38CA3B72.d.8B9A769556AAA5A74B14025211A72F78.e.176")>
+2025-04-01 19:09:02.035 | INFO     | src.utils.logger:info:49 - 执行结果为：用户测试550115
+2025-04-01 19:09:02.035 | INFO     | src.utils.logger:info:49 - 执行函数：text执行参数：(('xpath', "//*[text()='608499']"),)
+2025-04-01 19:09:02.035 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='608499']")}
+2025-04-01 19:09:02.040 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1000dfe4021a6f93c7de708dd77bea6a", element="f.A62C4E71B02A6AD0924DFF2F38CA3B72.d.8B9A769556AAA5A74B14025211A72F78.e.177")>
+2025-04-01 19:09:02.046 | INFO     | src.utils.logger:info:49 - 执行结果为：608499
+2025-04-01 19:09:02.047 | INFO     | src.utils.logger:info:49 - 执行函数：get执行参数：('http://www.liuyanzu.tech/task/manage/#/userList',)
+2025-04-01 19:09:02.051 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:09:02.052 | INFO     | src.utils.logger:info:49 - 执行函数：refresh执行参数：()
+2025-04-01 19:09:02.211 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:09:02.211 | INFO     | src.utils.logger:info:49 - 执行函数：type_clear执行参数：(('xpath', '//*[@placeholder="手机号"]'),)
+2025-04-01 19:09:02.212 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：(('xpath', '//*[@placeholder="手机号"]'),)
+2025-04-01 19:09:02.220 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1000dfe4021a6f93c7de708dd77bea6a", element="f.A62C4E71B02A6AD0924DFF2F38CA3B72.d.5AD9EAA5D94565424D3B5EEA473460C0.e.186")>
+2025-04-01 19:09:02.247 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:09:02.247 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('xpath', '//*[@placeholder="手机号"]'), '608499')
+2025-04-01 19:09:02.247 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//*[@placeholder="手机号"]')}
+2025-04-01 19:09:02.254 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1000dfe4021a6f93c7de708dd77bea6a", element="f.A62C4E71B02A6AD0924DFF2F38CA3B72.d.5AD9EAA5D94565424D3B5EEA473460C0.e.186")>
+2025-04-01 19:09:02.327 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:09:02.327 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:09:03.332 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:09:03.333 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', '//button[@class="el-button el-button--primary el-button--small"]/span[text()="搜索"]'),)
+2025-04-01 19:09:03.334 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//button[@class="el-button el-button--primary el-button--small"]/span[text()="搜索"]')}
+2025-04-01 19:09:03.344 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1000dfe4021a6f93c7de708dd77bea6a", element="f.A62C4E71B02A6AD0924DFF2F38CA3B72.d.5AD9EAA5D94565424D3B5EEA473460C0.e.247")>
+2025-04-01 19:09:03.381 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:09:03.381 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:09:04.386 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:09:04.387 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', '//*[text()="608499"]/../../td[8]/div/button[2]'),)
+2025-04-01 19:09:04.387 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//*[text()="608499"]/../../td[8]/div/button[2]')}
+2025-04-01 19:09:04.403 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1000dfe4021a6f93c7de708dd77bea6a", element="f.A62C4E71B02A6AD0924DFF2F38CA3B72.d.5AD9EAA5D94565424D3B5EEA473460C0.e.251")>
+2025-04-01 19:09:04.456 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:09:04.456 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:09:05.459 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:09:05.459 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('xpath', '//*[@id="app"]/div/div[3]/div[2]/div/div[3]/div/div[2]/form/div[1]/div/div/input'), '用户测试648431')
+2025-04-01 19:09:05.459 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//*[@id="app"]/div/div[3]/div[2]/div/div[3]/div/div[2]/form/div[1]/div/div/input')}
+2025-04-01 19:09:05.467 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1000dfe4021a6f93c7de708dd77bea6a", element="f.A62C4E71B02A6AD0924DFF2F38CA3B72.d.5AD9EAA5D94565424D3B5EEA473460C0.e.253")>
+2025-04-01 19:09:05.534 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:09:05.534 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:09:06.538 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:09:06.539 | INFO     | src.utils.logger:info:49 - 执行函数：exeute_js执行参数：('document.querySelector(".el-upload__input").style.display="block"',)
+2025-04-01 19:09:06.545 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:09:06.545 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:09:07.549 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:09:07.549 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('name', 'file'), '/Users/admin/Documents/pythonproject/servemanage/data/Snipaste_2025-03-18_19-36-22.png')
+2025-04-01 19:09:07.549 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('name', 'file')}
+2025-04-01 19:09:07.560 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1000dfe4021a6f93c7de708dd77bea6a", element="f.A62C4E71B02A6AD0924DFF2F38CA3B72.d.5AD9EAA5D94565424D3B5EEA473460C0.e.262")>
+2025-04-01 19:09:07.576 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:09:07.576 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:09:08.578 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:09:08.579 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', '//*[@id="app"]/div/div[3]/div[2]/div/div[3]/div/div[3]/span/button[2]'),)
+2025-04-01 19:09:08.579 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//*[@id="app"]/div/div[3]/div[2]/div/div[3]/div/div[3]/span/button[2]')}
+2025-04-01 19:09:08.596 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="1000dfe4021a6f93c7de708dd77bea6a", element="f.A62C4E71B02A6AD0924DFF2F38CA3B72.d.5AD9EAA5D94565424D3B5EEA473460C0.e.264")>
+2025-04-01 19:09:08.634 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:09:08.634 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:09:09.636 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:09:09.637 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：(('xpath', '//*[text()="用户测试648431"]'),)
+2025-04-01 19:09:40.131 | INFO     | src.utils.logger:info:49 - 执行出错Traceback (most recent call last):
+  File "/Users/admin/Documents/pythonproject/servemanage/src/utils/logger.py", line 89, in log_action
+    retval=func(*args,**kwargs)
+  File "/Users/admin/Documents/pythonproject/servemanage/src/utils/pyselenium.py", line 95, in find_element
+    return WebDriverWait(self.__driver,self.__timeout).until(lambda a: a.find_element(*locator))
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100f66828 chromedriver + 6105128
+1   chromedriver                        0x0000000100f5e42a chromedriver + 6071338
+2   chromedriver                        0x00000001009f9600 chromedriver + 415232
+3   chromedriver                        0x0000000100a4b2c0 chromedriver + 750272
+4   chromedriver                        0x0000000100a4b511 chromedriver + 750865
+5   chromedriver                        0x0000000100a9b9c4 chromedriver + 1079748
+6   chromedriver                        0x0000000100a7163d chromedriver + 906813
+7   chromedriver                        0x0000000100a98c3d chromedriver + 1068093
+8   chromedriver                        0x0000000100a713e3 chromedriver + 906211
+9   chromedriver                        0x0000000100a3d29a chromedriver + 692890
+10  chromedriver                        0x0000000100a3e3f1 chromedriver + 697329
+11  chromedriver                        0x0000000100f25d20 chromedriver + 5840160
+12  chromedriver                        0x0000000100f29bf4 chromedriver + 5856244
+13  chromedriver                        0x0000000100f00956 chromedriver + 5687638
+14  chromedriver                        0x0000000100f2a5eb chromedriver + 5858795
+15  chromedriver                        0x0000000100eef044 chromedriver + 5615684
+16  chromedriver                        0x0000000100f4c388 chromedriver + 5997448
+17  chromedriver                        0x0000000100f4c54f chromedriver + 5997903
+18  chromedriver                        0x0000000100f5e008 chromedriver + 6070280
+19  libsystem_pthread.dylib             0x00007ff81160c18b _pthread_start + 99
+20  libsystem_pthread.dylib             0x00007ff811607ae3 thread_start + 15
+
+
+2025-04-01 19:09:40.195 | INFO     | src.utils.logger:info:49 - 执行函数：get执行参数：('http://www.liuyanzu.tech/task/manage/#/userList',)
+2025-04-01 19:09:40.199 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:09:40.199 | INFO     | src.utils.logger:info:49 - 执行函数：refresh执行参数：()
+2025-04-01 19:09:40.379 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:09:40.381 | INFO     | src.utils.logger:info:49 - 执行函数：get执行参数：('http://www.liuyanzu.tech/task/manage/#/userList',)
+2025-04-01 19:09:40.397 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:09:40.398 | INFO     | src.utils.logger:info:49 - 执行函数：refresh执行参数：()
+2025-04-01 19:09:40.591 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:09:40.593 | INFO     | src.utils.logger:info:49 - 执行函数：get执行参数：('http://www.liuyanzu.tech/task/manage/#/userList',)
+2025-04-01 19:09:40.598 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:09:40.598 | INFO     | src.utils.logger:info:49 - 执行函数：refresh执行参数：()
+2025-04-01 19:09:40.757 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:23.917 | INFO     | src.utils.logger:info:49 - 执行函数：get执行参数：('http://www.liuyanzu.tech/task/manage/#/login',)
+2025-04-01 19:13:24.032 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:24.032 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('xpath', '//input[@class="el-input__inner" and @type="text"]'), 'admin')
+2025-04-01 19:13:24.032 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//input[@class="el-input__inner" and @type="text"]')}
+2025-04-01 19:13:24.823 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="3240023a4de2c755858a2bce9ee21b29", element="f.2A9C20E9F1CC726FCE626DB0CB4D8BFE.d.EE4EC64937819C7BAF98542D259A17B6.e.3")>
+2025-04-01 19:13:25.025 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:25.026 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('xpath', '//input[@class="el-input__inner" and @type="password"]'), '123456')
+2025-04-01 19:13:25.026 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//input[@class="el-input__inner" and @type="password"]')}
+2025-04-01 19:13:25.037 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="3240023a4de2c755858a2bce9ee21b29", element="f.2A9C20E9F1CC726FCE626DB0CB4D8BFE.d.EE4EC64937819C7BAF98542D259A17B6.e.4")>
+2025-04-01 19:13:25.092 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:25.092 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', "//*[text()='登录']"),)
+2025-04-01 19:13:25.092 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='登录']")}
+2025-04-01 19:13:25.105 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="3240023a4de2c755858a2bce9ee21b29", element="f.2A9C20E9F1CC726FCE626DB0CB4D8BFE.d.EE4EC64937819C7BAF98542D259A17B6.e.12")>
+2025-04-01 19:13:25.165 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:25.165 | INFO     | src.utils.logger:info:49 - 执行函数：asster执行参数：(('xpath', "//*[text()='登录成功']"),)
+2025-04-01 19:13:25.165 | INFO     | src.utils.logger:info:49 - 执行函数：find_elements执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='登录成功']")}
+2025-04-01 19:13:25.720 | INFO     | src.utils.logger:info:49 - 执行结果为：[<selenium.webdriver.remote.webelement.WebElement (session="3240023a4de2c755858a2bce9ee21b29", element="f.2A9C20E9F1CC726FCE626DB0CB4D8BFE.d.EE4EC64937819C7BAF98542D259A17B6.e.20")>]
+2025-04-01 19:13:25.720 | INFO     | src.utils.logger:info:49 - 执行结果为：[<selenium.webdriver.remote.webelement.WebElement (session="3240023a4de2c755858a2bce9ee21b29", element="f.2A9C20E9F1CC726FCE626DB0CB4D8BFE.d.EE4EC64937819C7BAF98542D259A17B6.e.20")>]
+2025-04-01 19:13:25.721 | INFO     | src.utils.logger:info:49 - 执行函数：get执行参数：('http://www.liuyanzu.tech/task/manage/#/userList',)
+2025-04-01 19:13:25.749 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:25.749 | INFO     | src.utils.logger:info:49 - 执行函数：refresh执行参数：()
+2025-04-01 19:13:25.951 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:25.953 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:13:26.957 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:26.958 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', "//*[text()='新增用户']"),)
+2025-04-01 19:13:26.958 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='新增用户']")}
+2025-04-01 19:13:26.977 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="3240023a4de2c755858a2bce9ee21b29", element="f.2A9C20E9F1CC726FCE626DB0CB4D8BFE.d.2D1E0BAA767CD8042A00A47A162AE6B2.e.86")>
+2025-04-01 19:13:27.032 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:27.032 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:13:28.037 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:28.038 | INFO     | src.utils.logger:info:49 - 执行函数：type_clear执行参数：(('xpath', "//*[text()='昵称']/../div/div/input"),)
+2025-04-01 19:13:28.038 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：(('xpath', "//*[text()='昵称']/../div/div/input"),)
+2025-04-01 19:13:28.053 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="3240023a4de2c755858a2bce9ee21b29", element="f.2A9C20E9F1CC726FCE626DB0CB4D8BFE.d.2D1E0BAA767CD8042A00A47A162AE6B2.e.90")>
+2025-04-01 19:13:28.079 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:28.079 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:13:29.082 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:29.082 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('xpath', "//*[text()='昵称']/../div/div/input"), '用户测试696502')
+2025-04-01 19:13:29.083 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='昵称']/../div/div/input")}
+2025-04-01 19:13:29.096 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="3240023a4de2c755858a2bce9ee21b29", element="f.2A9C20E9F1CC726FCE626DB0CB4D8BFE.d.2D1E0BAA767CD8042A00A47A162AE6B2.e.90")>
+2025-04-01 19:13:29.196 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:29.196 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:13:30.201 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:30.201 | INFO     | src.utils.logger:info:49 - 执行函数：type_clear执行参数：(('xpath', "//*[text()='手机']/../div/div/input"),)
+2025-04-01 19:13:30.202 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：(('xpath', "//*[text()='手机']/../div/div/input"),)
+2025-04-01 19:13:30.213 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="3240023a4de2c755858a2bce9ee21b29", element="f.2A9C20E9F1CC726FCE626DB0CB4D8BFE.d.2D1E0BAA767CD8042A00A47A162AE6B2.e.91")>
+2025-04-01 19:13:30.236 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:30.236 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:13:31.240 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:31.241 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('xpath', "//*[text()='手机']/../div/div/input"), '263488')
+2025-04-01 19:13:31.241 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='手机']/../div/div/input")}
+2025-04-01 19:13:31.251 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="3240023a4de2c755858a2bce9ee21b29", element="f.2A9C20E9F1CC726FCE626DB0CB4D8BFE.d.2D1E0BAA767CD8042A00A47A162AE6B2.e.91")>
+2025-04-01 19:13:31.306 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:31.306 | INFO     | src.utils.logger:info:49 - 执行函数：exeute_js执行参数：('document.querySelector(".el-upload__input").style.display="block"',)
+2025-04-01 19:13:31.313 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:31.313 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:13:32.318 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:32.318 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('xpath', "//*[@class='el-upload el-upload--picture']/input"), '/Users/admin/Documents/pythonproject/servemanage/data/Snipaste_2025-03-18_19-36-22.png')
+2025-04-01 19:13:32.319 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[@class='el-upload el-upload--picture']/input")}
+2025-04-01 19:13:32.332 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="3240023a4de2c755858a2bce9ee21b29", element="f.2A9C20E9F1CC726FCE626DB0CB4D8BFE.d.2D1E0BAA767CD8042A00A47A162AE6B2.e.98")>
+2025-04-01 19:13:32.360 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:32.360 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:13:33.365 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:33.365 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', "//*[@id='app']/div/div[3]/div[2]/div/div[4]/div/div[3]/span/button[2]"),)
+2025-04-01 19:13:33.365 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[@id='app']/div/div[3]/div[2]/div/div[4]/div/div[3]/span/button[2]")}
+2025-04-01 19:13:33.376 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="3240023a4de2c755858a2bce9ee21b29", element="f.2A9C20E9F1CC726FCE626DB0CB4D8BFE.d.2D1E0BAA767CD8042A00A47A162AE6B2.e.102")>
+2025-04-01 19:13:33.416 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:33.416 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(5,)
+2025-04-01 19:13:38.421 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:38.421 | INFO     | src.utils.logger:info:49 - 执行函数：refresh执行参数：()
+2025-04-01 19:13:38.584 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:38.585 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:13:39.588 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:39.588 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('xpath', '//*[@placeholder="手机号"]'), '263488')
+2025-04-01 19:13:39.589 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//*[@placeholder="手机号"]')}
+2025-04-01 19:13:39.604 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="3240023a4de2c755858a2bce9ee21b29", element="f.2A9C20E9F1CC726FCE626DB0CB4D8BFE.d.49D19DA8812785B4AA33DC6895621590.e.129")>
+2025-04-01 19:13:39.679 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:39.679 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:13:40.682 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:40.682 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', '//button[@class="el-button el-button--primary el-button--small"]/span[text()="搜索"]'),)
+2025-04-01 19:13:40.683 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//button[@class="el-button el-button--primary el-button--small"]/span[text()="搜索"]')}
+2025-04-01 19:13:40.697 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="3240023a4de2c755858a2bce9ee21b29", element="f.2A9C20E9F1CC726FCE626DB0CB4D8BFE.d.49D19DA8812785B4AA33DC6895621590.e.174")>
+2025-04-01 19:13:40.734 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:40.734 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:13:41.736 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:41.736 | INFO     | src.utils.logger:info:49 - 执行函数：text执行参数：(('xpath', "//*[text()='用户测试696502']"),)
+2025-04-01 19:13:41.737 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='用户测试696502']")}
+2025-04-01 19:13:41.747 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="3240023a4de2c755858a2bce9ee21b29", element="f.2A9C20E9F1CC726FCE626DB0CB4D8BFE.d.49D19DA8812785B4AA33DC6895621590.e.176")>
+2025-04-01 19:13:41.758 | INFO     | src.utils.logger:info:49 - 执行结果为：用户测试696502
+2025-04-01 19:13:41.759 | INFO     | src.utils.logger:info:49 - 执行函数：text执行参数：(('xpath', "//*[text()='263488']"),)
+2025-04-01 19:13:41.759 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='263488']")}
+2025-04-01 19:13:41.766 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="3240023a4de2c755858a2bce9ee21b29", element="f.2A9C20E9F1CC726FCE626DB0CB4D8BFE.d.49D19DA8812785B4AA33DC6895621590.e.177")>
+2025-04-01 19:13:41.772 | INFO     | src.utils.logger:info:49 - 执行结果为：263488
+2025-04-01 19:13:41.772 | INFO     | src.utils.logger:info:49 - 执行函数：text执行参数：(('xpath', "//*[text()='用户测试696502']"),)
+2025-04-01 19:13:41.772 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='用户测试696502']")}
+2025-04-01 19:13:41.777 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="3240023a4de2c755858a2bce9ee21b29", element="f.2A9C20E9F1CC726FCE626DB0CB4D8BFE.d.49D19DA8812785B4AA33DC6895621590.e.176")>
+2025-04-01 19:13:41.782 | INFO     | src.utils.logger:info:49 - 执行结果为：用户测试696502
+2025-04-01 19:13:41.782 | INFO     | src.utils.logger:info:49 - 执行函数：text执行参数：(('xpath', "//*[text()='263488']"),)
+2025-04-01 19:13:41.783 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', "//*[text()='263488']")}
+2025-04-01 19:13:41.787 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="3240023a4de2c755858a2bce9ee21b29", element="f.2A9C20E9F1CC726FCE626DB0CB4D8BFE.d.49D19DA8812785B4AA33DC6895621590.e.177")>
+2025-04-01 19:13:41.792 | INFO     | src.utils.logger:info:49 - 执行结果为：263488
+2025-04-01 19:13:41.793 | INFO     | src.utils.logger:info:49 - 执行函数：get执行参数：('http://www.liuyanzu.tech/task/manage/#/userList',)
+2025-04-01 19:13:41.799 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:41.799 | INFO     | src.utils.logger:info:49 - 执行函数：refresh执行参数：()
+2025-04-01 19:13:41.952 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:41.953 | INFO     | src.utils.logger:info:49 - 执行函数：type_clear执行参数：(('xpath', '//*[@placeholder="手机号"]'),)
+2025-04-01 19:13:41.953 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：(('xpath', '//*[@placeholder="手机号"]'),)
+2025-04-01 19:13:41.962 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="3240023a4de2c755858a2bce9ee21b29", element="f.2A9C20E9F1CC726FCE626DB0CB4D8BFE.d.FE7AE9E2CDF8DCD2CAB27FF4216839EA.e.186")>
+2025-04-01 19:13:41.987 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:41.987 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('xpath', '//*[@placeholder="手机号"]'), '263488')
+2025-04-01 19:13:41.988 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//*[@placeholder="手机号"]')}
+2025-04-01 19:13:41.994 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="3240023a4de2c755858a2bce9ee21b29", element="f.2A9C20E9F1CC726FCE626DB0CB4D8BFE.d.FE7AE9E2CDF8DCD2CAB27FF4216839EA.e.186")>
+2025-04-01 19:13:42.091 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:42.092 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:13:43.097 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:43.098 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', '//button[@class="el-button el-button--primary el-button--small"]/span[text()="搜索"]'),)
+2025-04-01 19:13:43.098 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//button[@class="el-button el-button--primary el-button--small"]/span[text()="搜索"]')}
+2025-04-01 19:13:43.111 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="3240023a4de2c755858a2bce9ee21b29", element="f.2A9C20E9F1CC726FCE626DB0CB4D8BFE.d.FE7AE9E2CDF8DCD2CAB27FF4216839EA.e.247")>
+2025-04-01 19:13:43.165 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:43.165 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:13:44.169 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:44.170 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', '//*[text()="263488"]/../../td[8]/div/button[2]'),)
+2025-04-01 19:13:44.170 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//*[text()="263488"]/../../td[8]/div/button[2]')}
+2025-04-01 19:13:44.183 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="3240023a4de2c755858a2bce9ee21b29", element="f.2A9C20E9F1CC726FCE626DB0CB4D8BFE.d.FE7AE9E2CDF8DCD2CAB27FF4216839EA.e.251")>
+2025-04-01 19:13:44.233 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:44.233 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:13:45.238 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:45.238 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('xpath', '//*[@id="app"]/div/div[3]/div[2]/div/div[3]/div/div[2]/form/div[1]/div/div/input'), '用户测试267751')
+2025-04-01 19:13:45.239 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//*[@id="app"]/div/div[3]/div[2]/div/div[3]/div/div[2]/form/div[1]/div/div/input')}
+2025-04-01 19:13:45.256 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="3240023a4de2c755858a2bce9ee21b29", element="f.2A9C20E9F1CC726FCE626DB0CB4D8BFE.d.FE7AE9E2CDF8DCD2CAB27FF4216839EA.e.253")>
+2025-04-01 19:13:45.348 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:45.348 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:13:46.353 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:46.354 | INFO     | src.utils.logger:info:49 - 执行函数：exeute_js执行参数：('document.querySelector(".el-upload__input").style.display="block"',)
+2025-04-01 19:13:46.362 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:46.362 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:13:47.367 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:47.368 | INFO     | src.utils.logger:info:49 - 执行函数：type执行参数：(('name', 'file'), '/Users/admin/Documents/pythonproject/servemanage/data/Snipaste_2025-03-18_19-36-22.png')
+2025-04-01 19:13:47.368 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('name', 'file')}
+2025-04-01 19:13:47.381 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="3240023a4de2c755858a2bce9ee21b29", element="f.2A9C20E9F1CC726FCE626DB0CB4D8BFE.d.FE7AE9E2CDF8DCD2CAB27FF4216839EA.e.262")>
+2025-04-01 19:13:47.397 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:47.397 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:13:48.402 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:48.402 | INFO     | src.utils.logger:info:49 - 执行函数：click执行参数：(('xpath', '//*[@id="app"]/div/div[3]/div[2]/div/div[3]/div/div[3]/span/button[2]'),)
+2025-04-01 19:13:48.402 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：()关键字参数：{'locator': ('xpath', '//*[@id="app"]/div/div[3]/div[2]/div/div[3]/div/div[3]/span/button[2]')}
+2025-04-01 19:13:48.416 | INFO     | src.utils.logger:info:49 - 执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="3240023a4de2c755858a2bce9ee21b29", element="f.2A9C20E9F1CC726FCE626DB0CB4D8BFE.d.FE7AE9E2CDF8DCD2CAB27FF4216839EA.e.264")>
+2025-04-01 19:13:48.455 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:48.455 | INFO     | src.utils.logger:info:49 - 执行函数：force_wait执行参数：(1,)
+2025-04-01 19:13:49.461 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:13:49.461 | INFO     | src.utils.logger:info:49 - 执行函数：find_element执行参数：(('xpath', '//*[text()="用户测试267751"]'),)
+2025-04-01 19:14:19.493 | INFO     | src.utils.logger:info:49 - 执行出错Traceback (most recent call last):
+  File "/Users/admin/Documents/pythonproject/servemanage/src/utils/logger.py", line 89, in log_action
+    retval=func(*args,**kwargs)
+  File "/Users/admin/Documents/pythonproject/servemanage/src/utils/pyselenium.py", line 95, in find_element
+    return WebDriverWait(self.__driver,self.__timeout).until(lambda a: a.find_element(*locator))
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000105bde828 chromedriver + 6105128
+1   chromedriver                        0x0000000105bd642a chromedriver + 6071338
+2   chromedriver                        0x0000000105671600 chromedriver + 415232
+3   chromedriver                        0x00000001056c32c0 chromedriver + 750272
+4   chromedriver                        0x00000001056c3511 chromedriver + 750865
+5   chromedriver                        0x00000001057139c4 chromedriver + 1079748
+6   chromedriver                        0x00000001056e963d chromedriver + 906813
+7   chromedriver                        0x0000000105710c3d chromedriver + 1068093
+8   chromedriver                        0x00000001056e93e3 chromedriver + 906211
+9   chromedriver                        0x00000001056b529a chromedriver + 692890
+10  chromedriver                        0x00000001056b63f1 chromedriver + 697329
+11  chromedriver                        0x0000000105b9dd20 chromedriver + 5840160
+12  chromedriver                        0x0000000105ba1bf4 chromedriver + 5856244
+13  chromedriver                        0x0000000105b78956 chromedriver + 5687638
+14  chromedriver                        0x0000000105ba25eb chromedriver + 5858795
+15  chromedriver                        0x0000000105b67044 chromedriver + 5615684
+16  chromedriver                        0x0000000105bc4388 chromedriver + 5997448
+17  chromedriver                        0x0000000105bc454f chromedriver + 5997903
+18  chromedriver                        0x0000000105bd6008 chromedriver + 6070280
+19  libsystem_pthread.dylib             0x00007ff81160c18b _pthread_start + 99
+20  libsystem_pthread.dylib             0x00007ff811607ae3 thread_start + 15
+
+
+2025-04-01 19:14:19.542 | INFO     | src.utils.logger:info:49 - 执行函数：get执行参数：('http://www.liuyanzu.tech/task/manage/#/userList',)
+2025-04-01 19:14:19.549 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:14:19.549 | INFO     | src.utils.logger:info:49 - 执行函数：refresh执行参数：()
+2025-04-01 19:14:19.720 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:14:19.723 | INFO     | src.utils.logger:info:49 - 执行函数：get执行参数：('http://www.liuyanzu.tech/task/manage/#/userList',)
+2025-04-01 19:14:19.743 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:14:19.749 | INFO     | src.utils.logger:info:49 - 执行函数：refresh执行参数：()
+2025-04-01 19:14:19.933 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:14:19.935 | INFO     | src.utils.logger:info:49 - 执行函数：get执行参数：('http://www.liuyanzu.tech/task/manage/#/userList',)
+2025-04-01 19:14:19.947 | INFO     | src.utils.logger:info:49 - 执行结果为：None
+2025-04-01 19:14:19.948 | INFO     | src.utils.logger:info:49 - 执行函数：refresh执行参数：()
+2025-04-01 19:14:20.104 | INFO     | src.utils.logger:info:49 - 执行结果为：None

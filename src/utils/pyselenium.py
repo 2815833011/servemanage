@@ -38,9 +38,9 @@ class PySelenium:
             from selenium.webdriver import FirefoxOptions as Options
 
         option =Options()
-        option.add_argument("--log-level=3")
-        option.add_argument("--startmaximized")
-        option.add_experimental_option("excludeSwitches", ["enable-automation"])
+        for open in  Conf().get_opention():
+            option.add_argument(open)
+        
 
         return option
     @classmethod
