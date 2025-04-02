@@ -8,7 +8,7 @@ selenium:
         add_argument:
             - "--log-level=3"
             - --startmaximized"
-            # - "--headless"
+            - "--headless"
         
 testdata: ./data
 
