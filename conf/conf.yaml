@@ -1,14 +1,14 @@
 selenium:
     chromedriver:
         Linux: 
-            chrome: /Users/admin/Documents/pythonproject/servemanage/driver/linux/chromedriver
+            chrome: servemanage/driver/linux/chromedriver
         Darwin: 
             chrome: /Users/admin/Documents/pythonproject/servemanage/driver/mac/chromedriver
     opentions: 
         add_argument:
             - "--log-level=3"
             - --startmaximized"
-            - "--headless"
+            # - "--headless"
         
 testdata: ./data
 
