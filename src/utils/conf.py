@@ -60,4 +60,4 @@ class Conf:
 if __name__ == "__main__":
     con=Conf()
     
-    print()
+    print(con.yaml["selenium"]["chromedriver"]["Linux"]["chrome"])

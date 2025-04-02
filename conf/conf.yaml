@@ -1,9 +1,9 @@
 selenium:
     chromedriver:
         Linux: 
-            chrome: servemanage/driver/linux/chromedriver
+            chrome: driver/linux/chromedriver
         Darwin: 
-            chrome: /Users/admin/Documents/pythonproject/servemanage/driver/mac/chromedriver
+            chrome: driver/mac/chromedriver
     opentions: 
         add_argument:
             - "--log-level=3"
