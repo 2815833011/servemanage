@@ -56,8 +56,14 @@ class Conf:
         浏览器头参数
         '''
         return self.yaml["selenium"]["opentions"]["add_argument"]
+    
+    def get_case_result(self):
+        '''
+        获取report 存放地址
+        '''
+        return os.path.join(os.path.abspath("report"),self.yaml["result"]["path"])
 
 if __name__ == "__main__":
     con=Conf()
     
-    print(con.yaml["selenium"]["chromedriver"]["Linux"]["chrome"])
+    print(con.get_case_result())

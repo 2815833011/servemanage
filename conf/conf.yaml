@@ -28,4 +28,7 @@ conftest:
         passed: False
         failed: True
 
+result:
+    path: result
+    
     
