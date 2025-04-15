@@ -29,6 +29,6 @@ conftest:
         failed: True
 
 result:
-    path: result
+    path: case_result.text
     
     

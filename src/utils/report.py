@@ -6,8 +6,9 @@ class Report:
         获取测试结果
         '''
         print(terminalreporter.stats)
-        passed,failed,skipped=[],[],[]
+        passed,failed,skipped,errors,warning=[],[],[],[],[]
         for status,reports in terminalreporter.stats.items():
+            
             if status == "passed":
                 for report in reports:
                     nodeid=report.nodeid
@@ -25,9 +26,23 @@ class Report:
                     nodeid=report.nodeid
                     reason=report.longreprtext
                     skipped.append({nodeid:reason})
-        print(passed,failed,skipped)
-        return passed,failed,skipped       
-    def recourd_result(self,passed,failed,skiped):
+
+            if status == "error":
+                for report in reports:
+                    nodeid=report.nodeid
+                    reason=report.longreprtext
+                    errors.append({nodeid:reason})
+
+            if status == "warnings":
+                for report in reports:
+                    nodeid=report.nodeid
+                    reason=report.message
+                    warning.append({nodeid:reason})
+
+        print(passed,failed,skipped,errors)
+        return passed,failed,skipped,errors,warning     
+     
+    def recourd_result(self,passed,failed,skiped,errors,warning):
         '''
         执行成功用例，失败用例，跳过用例大结果记录
         ''' 
@@ -35,9 +50,9 @@ class Report:
         try:
             filepath=Conf().get_case_result()
             with open(file=filepath,mode="w",encoding="utf-8") as f:
-                f.write(f"{passed}{failed}{skiped}")
+                f.write(f"通过用例数{len(passed)},失败用例{len(failed)},跳过用例{len(skiped)},errors{len(errors)},warning{len(warning)}")
         except:
-            retval=False
+            retval=False 
         finally:
             return retval
         

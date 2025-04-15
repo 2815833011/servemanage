@@ -42,13 +42,14 @@ def pytest_terminal_summary(terminalreporter, exitstatus, config):
     '''
         获取所有测试结果
     '''
-    passed,failed,skipped= Report().get_result(terminalreporter)
-    
-    travel=Report().recourd_result(passed=passed,failed=failed,skiped=skipped)
+    passed,failed,skipped,errors,warning= Report().get_result(terminalreporter)
+    travel=Report().recourd_result(passed=passed,failed=failed,skiped=skipped,errors=errors,warning=warning)
     if travel:
         print("测试报告保存成功")
+    else:
+        print("测试报告保存失败")
     subjiect="shopxotestrunnner执行结果"
-    content=f"通过用例数{len(passed)},失败用例{len(failed)},跳过用例{len(skipped)}"
+    content=f"通过用例数{len(passed)},失败用例{len(failed)},跳过用例{len(skipped)},errors{len(errors)}"
     Logger().info(content)
     Mail().send_mail(subject=subjiect,contents=content)
 

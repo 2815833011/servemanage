@@ -1,0 +1,82 @@
+[32m2025-04-15 18:40:22.084[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行函数：get执行参数：()[0m
+[32m2025-04-15 18:40:22.088[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行结果为：None[0m
+[32m2025-04-15 18:40:22.088[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行函数：refresh[0m
+[32m2025-04-15 18:40:22.211[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行结果为：None[0m
+[32m2025-04-15 18:40:22.217[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行函数：type_clear执行参数：()[0m
+[32m2025-04-15 18:40:22.217[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行函数：find_element执行参数：()[0m
+[32m2025-04-15 18:40:22.229[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="a5dc24c6d829fb29bb509c6ab3877804", element="f.FB5DE5431B779F9748D6549A880C6B9A.d.1EA4310C8F02DD1D6A0DCE03149E7C7A.e.188")>[0m
+[32m2025-04-15 18:40:22.249[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行结果为：None[0m
+[32m2025-04-15 18:40:22.249[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行函数：type执行参数：('94787',)[0m
+[32m2025-04-15 18:40:22.249[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行函数：find_element关键字参数：{'locator': ('xpath', '//*[@placeholder="手机号"]')}[0m
+[32m2025-04-15 18:40:22.256[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="a5dc24c6d829fb29bb509c6ab3877804", element="f.FB5DE5431B779F9748D6549A880C6B9A.d.1EA4310C8F02DD1D6A0DCE03149E7C7A.e.188")>[0m
+[32m2025-04-15 18:40:22.305[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行结果为：None[0m
+[32m2025-04-15 18:40:22.306[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行函数：force_wait执行参数：()[0m
+[32m2025-04-15 18:40:25.419[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行结果为：None[0m
+[32m2025-04-15 18:40:25.419[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行函数：click执行参数：()[0m
+[32m2025-04-15 18:40:25.419[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行函数：find_element关键字参数：{'locator': ('xpath', '//button[@class="el-button el-button--primary el-button--small"]/span[text()="搜索"]')}[0m
+[32m2025-04-15 18:40:25.430[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="a5dc24c6d829fb29bb509c6ab3877804", element="f.FB5DE5431B779F9748D6549A880C6B9A.d.1EA4310C8F02DD1D6A0DCE03149E7C7A.e.251")>[0m
+[32m2025-04-15 18:40:25.469[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行结果为：None[0m
+[32m2025-04-15 18:40:25.469[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行函数：force_wait执行参数：()[0m
+[32m2025-04-15 18:40:26.473[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行结果为：None[0m
+[32m2025-04-15 18:40:26.474[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行函数：click执行参数：()[0m
+[32m2025-04-15 18:40:26.474[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行函数：find_element关键字参数：{'locator': ('xpath', '//*[text()="94787"]/../../td[8]/div/button[2]')}[0m
+[32m2025-04-15 18:40:26.485[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="a5dc24c6d829fb29bb509c6ab3877804", element="f.FB5DE5431B779F9748D6549A880C6B9A.d.1EA4310C8F02DD1D6A0DCE03149E7C7A.e.255")>[0m
+[32m2025-04-15 18:40:26.530[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行结果为：None[0m
+[32m2025-04-15 18:40:26.531[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行函数：force_wait执行参数：()[0m
+[32m2025-04-15 18:40:27.532[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行结果为：None[0m
+[32m2025-04-15 18:40:27.532[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行函数：type执行参数：('用户测试71979',)[0m
+[32m2025-04-15 18:40:27.533[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行函数：find_element关键字参数：{'locator': ('xpath', '//*[@id="app"]/div/div[3]/div[2]/div/div[3]/div/div[2]/form/div[1]/div/div/input')}[0m
+[32m2025-04-15 18:40:27.544[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="a5dc24c6d829fb29bb509c6ab3877804", element="f.FB5DE5431B779F9748D6549A880C6B9A.d.1EA4310C8F02DD1D6A0DCE03149E7C7A.e.257")>[0m
+[32m2025-04-15 18:40:27.599[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行结果为：None[0m
+[32m2025-04-15 18:40:27.599[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行函数：force_wait执行参数：()[0m
+[32m2025-04-15 18:40:28.602[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行结果为：None[0m
+[32m2025-04-15 18:40:28.602[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行函数：exeute_js执行参数：()[0m
+[32m2025-04-15 18:40:28.607[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行结果为：None[0m
+[32m2025-04-15 18:40:28.607[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行函数：force_wait执行参数：()[0m
+[32m2025-04-15 18:40:29.611[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行结果为：None[0m
+[32m2025-04-15 18:40:29.612[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行函数：type执行参数：('/Users/admin/Documents/pythonproject/servemanage/data/Snipaste_2025-03-18_19-36-22.png',)[0m
+[32m2025-04-15 18:40:29.612[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行函数：find_element关键字参数：{'locator': ('name', 'file')}[0m
+[32m2025-04-15 18:40:29.624[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="a5dc24c6d829fb29bb509c6ab3877804", element="f.FB5DE5431B779F9748D6549A880C6B9A.d.1EA4310C8F02DD1D6A0DCE03149E7C7A.e.264")>[0m
+[32m2025-04-15 18:40:29.638[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行结果为：None[0m
+[32m2025-04-15 18:40:29.638[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行函数：force_wait执行参数：()[0m
+[32m2025-04-15 18:40:30.643[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行结果为：None[0m
+[32m2025-04-15 18:40:30.643[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行函数：click执行参数：()[0m
+[32m2025-04-15 18:40:30.643[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行函数：find_element关键字参数：{'locator': ('xpath', '//*[@id="app"]/div/div[3]/div[2]/div/div[3]/div/div[3]/span/button[2]')}[0m
+[32m2025-04-15 18:40:30.653[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行结果为：<selenium.webdriver.remote.webelement.WebElement (session="a5dc24c6d829fb29bb509c6ab3877804", element="f.FB5DE5431B779F9748D6549A880C6B9A.d.1EA4310C8F02DD1D6A0DCE03149E7C7A.e.266")>[0m
+[32m2025-04-15 18:40:30.693[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行结果为：None[0m
+[32m2025-04-15 18:40:30.693[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行函数：force_wait执行参数：()[0m
+[32m2025-04-15 18:40:31.697[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行结果为：None[0m
+[32m2025-04-15 18:40:31.697[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行函数：find_element执行参数：()[0m
+[32m2025-04-15 18:41:02.076[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36minfo[0m:[36m49[0m - [1m执行出错Traceback (most recent call last):
+  File "/Users/admin/Documents/pythonproject/servemanage/src/utils/logger.py", line 89, in log_action
+    retval=func(self,*args,**kwargs)
+  File "/Users/admin/Documents/pythonproject/servemanage/src/utils/pyselenium.py", line 95, in find_element
+    return WebDriverWait(self.__driver,self.__timeout).until(lambda a: a.find_element(*locator))
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/selenium/webdriver/support/wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010279d828 chromedriver + 6105128
+1   chromedriver                        0x000000010279542a chromedriver + 6071338
+2   chromedriver                        0x0000000102230600 chromedriver + 415232
+3   chromedriver                        0x00000001022822c0 chromedriver + 750272
+4   chromedriver                        0x0000000102282511 chromedriver + 750865
+5   chromedriver                        0x00000001022d29c4 chromedriver + 1079748
+6   chromedriver                        0x00000001022a863d chromedriver + 906813
+7   chromedriver                        0x00000001022cfc3d chromedriver + 1068093
+8   chromedriver                        0x00000001022a83e3 chromedriver + 906211
+9   chromedriver                        0x000000010227429a chromedriver + 692890
+10  chromedriver                        0x00000001022753f1 chromedriver + 697329
+11  chromedriver                        0x000000010275cd20 chromedriver + 5840160
+12  chromedriver                        0x0000000102760bf4 chromedriver + 5856244
+13  chromedriver                        0x0000000102737956 chromedriver + 5687638
+14  chromedriver                        0x00000001027615eb chromedriver + 5858795
+15  chromedriver                        0x0000000102726044 chromedriver + 5615684
+16  chromedriver                        0x0000000102783388 chromedriver + 5997448
+17  chromedriver                        0x000000010278354f chromedriver + 5997903
+18  chromedriver                        0x0000000102795008 chromedriver + 6070280
+19  libsystem_pthread.dylib             0x00007ff80766b18b _pthread_start + 99
+20  libsystem_pthread.dylib             0x00007ff807666ae3 thread_start + 15
+
+[0m

@@ -76,7 +76,7 @@ log2=Logger()
 
 def log(func):
     out_func=["get_screenshot_as_png"]
-    def log_action(*args,**kwargs):
+    def log_action(self,*args,**kwargs):
         msg=f"执行函数：{func.__name__}"
         if args:
             msg+=f"执行参数：{args[1::]}"
@@ -86,7 +86,7 @@ def log(func):
         try:
 
             retval=None
-            retval=func(*args,**kwargs)
+            retval=func(self,*args,**kwargs)
         except :
             exemsg= traceback.format_exc()
             log2.info(f"执行出错{exemsg}")
