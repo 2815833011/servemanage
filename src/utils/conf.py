@@ -62,8 +62,10 @@ class Conf:
         获取report 存放地址
         '''
         return os.path.join(os.path.abspath("report"),self.yaml["result"]["path"])
-
+    
+    
 if __name__ == "__main__":
     con=Conf()
-    
-    print(con.get_case_result())
+
+
+    # export PYTHONPATH="${PYTHONPATH}:/Users/admin/Documents/pythonproject/servemanage/"

@@ -7,7 +7,7 @@ selenium:
     opentions: 
         add_argument:
             - "--log-level=3"
-            - --startmaximized"
+            - "--startmaximized"
             - "--headless"
         
 testdata: ./data
@@ -30,5 +30,6 @@ conftest:
 
 result:
     path: case_result.text
-    
+
+
     

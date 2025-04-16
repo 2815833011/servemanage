@@ -1,0 +1,44 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"
+编辑用户
+","37951","test_updata","src.case","Tue Apr 15 18:42:12 CST 2025","broken","Tue Apr 15 18:42:50 CST 2025","TestUser","test_user","",""
+"
+状态查询
+","0","test_status_user[\u5df2\u51bb\u7ed3]","src.case","Tue Apr 15 18:42:50 CST 2025","passed","Tue Apr 15 18:42:50 CST 2025","TestUser","test_user","",""
+"
+标题搜索
+","0","test_lable_search[1]","src.case","Tue Apr 15 18:41:53 CST 2025","skipped","Tue Apr 15 18:41:53 CST 2025","TestBanner","test_banner","",""
+"","0","test_02_update_banner","src.case","Tue Apr 15 18:41:53 CST 2025","skipped","Tue Apr 15 18:41:53 CST 2025","TestBanner","test_banner","",""
+"
+另一种上传文件的方式
+","0","test_add_pyautogui_banner","src.case","Tue Apr 15 18:41:53 CST 2025","skipped","Tue Apr 15 18:41:53 CST 2025","TestBanner","test_banner","",""
+"
+标题搜索
+","0","test_lable_search[3]","src.case","Tue Apr 15 18:41:53 CST 2025","skipped","Tue Apr 15 18:41:53 CST 2025","TestBanner","test_banner","",""
+"
+状态查询
+","1","test_status_user[\u6b63\u5e38]","src.case","Tue Apr 15 18:42:50 CST 2025","passed","Tue Apr 15 18:42:50 CST 2025","TestUser","test_user","",""
+"
+状态查询
+","0","test_select_banner[\u542f\u7528]","src.case","Tue Apr 15 18:41:53 CST 2025","skipped","Tue Apr 15 18:41:53 CST 2025","TestBanner","test_banner","",""
+"
+新增轮播图
+","0","test_01_add_banner","src.case","Tue Apr 15 18:41:51 CST 2025","skipped","Tue Apr 15 18:41:51 CST 2025","TestBanner","test_banner","",""
+"
+标题搜索
+","0","test_lable_search[2]","src.case","Tue Apr 15 18:41:53 CST 2025","skipped","Tue Apr 15 18:41:53 CST 2025","TestBanner","test_banner","",""
+"
+新增用户
+","15756","test_add_user","src.case","Tue Apr 15 18:41:56 CST 2025","passed","Tue Apr 15 18:42:12 CST 2025","TestUser","test_user","",""
+"
+停用启用用例
+","0","test_disable_banner[data0]","src.case","Tue Apr 15 18:41:53 CST 2025","skipped","Tue Apr 15 18:41:53 CST 2025","TestBanner","test_banner","",""
+"
+状态查询
+","0","test_status_user[\u7981\u6b62\u53d1\u5e03\u4efb\u52a1]","src.case","Tue Apr 15 18:42:51 CST 2025","passed","Tue Apr 15 18:42:51 CST 2025","TestUser","test_user","",""
+"
+状态查询
+","0","test_select_banner[\u7981\u7528]","src.case","Tue Apr 15 18:41:53 CST 2025","skipped","Tue Apr 15 18:41:53 CST 2025","TestBanner","test_banner","",""
+"
+停用启用用例
+","0","test_disable_banner[data1]","src.case","Tue Apr 15 18:41:53 CST 2025","skipped","Tue Apr 15 18:41:53 CST 2025","TestBanner","test_banner","",""

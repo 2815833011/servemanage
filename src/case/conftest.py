@@ -1,7 +1,6 @@
 # import os,sys
 # sys.path.append(os.getcwd)
 import pytest
-import datetime
 from src.utils.pyselenium import PySelenium
 from selenium.webdriver.common.by import By
 from src.utils.conf import Conf
