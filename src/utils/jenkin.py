@@ -4,7 +4,7 @@ from jenkins import Jenkins
 import os
 
 CONFIG={
-      "url":"http://42.194.159.123:8081",
+        "url":"http://42.194.159.123:8081",
         "username":"tangying",
         "password":"123456",
         "job_name":"testrunner"
@@ -32,7 +32,7 @@ class JenkinsRead :
 
         return msg
 
-if __name__=="__manin__":
+if __name__=="__main__":
     print(JenkinsRead().get_info())
 # for k,v in job_name.items():
 #     print(k,v)
