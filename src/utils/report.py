@@ -50,7 +50,7 @@ class Report:
         try:
             filepath=Conf().get_case_result()
             with open(file=filepath,mode="w",encoding="utf-8") as f:
-                f.write(f"通过用例数{len(passed)},失败用例{len(failed)},跳过用例{len(skiped)},errors{len(errors)},warning{len(warning)}")
+                f.write(f"{len(passed)}:{len(failed)}:{len(skiped)}:{len(errors)}:{len(warning)}")
         except:
             retval=False 
         finally:
